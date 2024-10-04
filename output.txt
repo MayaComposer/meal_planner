@@ -1,0 +1,42 @@
+1 Monday
+ Recipe.3 Difficulty.3 M/F/V.3 Ingredients.3 Time.3
+  vannnnn            2       V  risotto rice     50
+                                        vegg       
+                                    bouillon       
+                                      vannnn       
+2 Tuesday
+ Recipe.5 Difficulty.5 M/F/V.5 Ingredients.5 Time.5
+  brownie            2       V  risotto rice     50
+                                        vegg       
+                                    bouillon       
+                                      vannnn       
+3 Wednesday
+ Recipe Difficulty M/F/V   Ingredients Time
+  Curry          1     M         onion   50
+                          coconut milk     
+                           curry paste     
+                               lentils     
+4 Thursday
+ Recipe.4 Difficulty.4 M/F/V.4 Ingredients.4 Time.4
+    kaffe            2       V  risotto rice     50
+                                        vegg       
+                                    bouillon       
+                                      vannnn       
+5 Friday
+ Recipe.2 Difficulty.2 M/F/V.2 Ingredients.2 Time.2
+  risotto            2       V  risotto rice     50
+                                        vegg       
+                                    bouillon       
+                                      vannnn       
+6 Saturday
+ Recipe.1 Difficulty.1 M/F/V.1 Ingredients.1 Time.1
+      egg            3       V           egg     10
+                                         egg       
+                                     moreegg       
+                                    many egg       
+7 Sunday
+ Recipe.6 Difficulty.6 M/F/V.6 Ingredients.6 Time.6
+  brownie            2       V  risotto rice     50
+                                        vegg       
+                                    bouillon       
+                                      vannnn       
