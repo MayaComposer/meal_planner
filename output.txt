@@ -1,21 +1,28 @@
-Monday: fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
-
-Tuesday: miso soup (v)
-Ingredients: miso, dashi, noodles, 
-
-Wednesday: couscous with stew (v)
-Ingredients: couscous, aubergine, 
-
-Thursday: chicken mango chutney rice (m)
-Ingredients: mango chutney, rice, 
-
-Friday: pasta (v)
+Monday: 
+pasta (v)
 Ingredients: pasta,  
 
-Saturday: curry (v)
-Ingredients: rice, coconut milk, carrot,
+Tuesday: 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrots, 
 
-Sunday: baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
+Wednesday: 
+stamppot (m)
+Ingredients: milk,  potato,
+
+Thursday: 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
+
+Friday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
+Saturday: 
+couscous with stew (v)
+Ingredients: couscous, aubergine, 
+
+Sunday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring onion,
 

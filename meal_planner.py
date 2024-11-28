@@ -11,21 +11,17 @@ import random
 
 from tkinter import *
 
-#open excel file
-file = pd.ExcelFile('meals.xlsx')
-
-column_names = ['Recipe', 'Difficulty', 'M/F/V', 'Ingredients']
-
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
 
 def read_data():
+    #open excel file
+    file = pd.ExcelFile('meals.xlsx')
+    print('data read')
     return pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
 
 #read excel sheet into dataframe
 df = read_data()
-
-
 
 #iterate over dataframe and add recipes to lists based on category
 def sort_recipes():
@@ -65,18 +61,11 @@ def generate_mealplan() -> list:
 
     return meals
 
-meals = generate_mealplan()
-
-
-mealplan_text = []
-
-print('meal plan generated')
-
 def display_mealplan():
     meals = generate_mealplan()
     mealplan_text = ""
     for count, meal in enumerate(meals):
-        mealplan_text += f"{days[count]}: {meal.Index} ({meal.category})\n"
+        mealplan_text += f"{days[count]}: \n{meal.Index} ({meal.category})\n"
         mealplan_text += f"Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n"
     
     mealplan_label.config(text=mealplan_text)
@@ -84,18 +73,25 @@ def display_mealplan():
     with open("output.txt", "w") as f:
         f.write(mealplan_text)
 
+def add_recipe():
+    print('here a recipe would be added')
+
 # Set up Tkinter window
 root = Tk()
 root.title("Meal Planner")
 root.minsize(400, 400)  # width, height
-root.geometry("400x600")
+root.geometry("500x700+0+0")
+root.iconbitmap("icon.ico")
 
 # Create button to generate meal plan
-generate_button = Button(root, text="Generate Meal Plan", command=display_mealplan)
-generate_button.pack(pady=20)
+generate_button = Button(root, text="Generate Meal Plan", command=display_mealplan, bg='teal', fg='white')
+generate_button.pack(pady=5)
+
+read_data_button = Button(root, text="Add new recipe", command=add_recipe, bg='teal', fg='white')
+read_data_button.pack(pady=5)
 
 # Label to display the meal plan
-mealplan_label = Label(root, text="", justify=LEFT)
-mealplan_label.pack(pady=20)
+mealplan_label = Label(root, text="", justify=CENTER, font=("Helvetica", 13))
+mealplan_label.pack(pady=40)
 
 root.mainloop()
