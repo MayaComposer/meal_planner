@@ -66,7 +66,6 @@ for row in df.itertuples():
         meat_recipes.append(row)
     if row.category == 'v':
         veg_recipes.append(row)
-    
 
 #add a recipe of each category to the meals list
 np.random.shuffle(fish_recipes)
@@ -83,10 +82,6 @@ for recipe in range(0, 4):
 
 np.random.shuffle(meals)
 
-
-
-
-
 with open("output.txt", "w") as f:
     count = 0
     for x in meals:
@@ -98,4 +93,8 @@ with open("output.txt", "w") as f:
         f.write('\n')
         f.write('\n')
         count += 1
+
+    f.write('Shopping list: ')
+    for x in meals:
+        f.write(str(x.ingredients + ' ' + x.fresh_ingredients + ' '))
 

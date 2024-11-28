@@ -1,28 +1,29 @@
 Monday
-pasta (v)
-Ingredients: pasta, 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrots, 
 
 Tuesday
-burgers (v)
-Ingredients: burgers, fries 
+pie (v)
+Ingredients: flour, egg, milk, 
 
 Wednesday
+curry (v)
+Ingredients: rice, coconut milk, carrot,
+
+Thursday
 nachos (v)
 Ingredients: canned tomato, beans 
 
-Thursday
-fish with fries (f)
-Ingredients: fish, fries 
-
 Friday
-pie (v)
-Ingredients: flour, egg, milk 
+fiskegrateng (f)
+Ingredients: pineapple, carrot, potato,
 
 Saturday
+pasta (v)
+Ingredients: pasta,  
+
+Sunday
 kj�ttboller (m)
 Ingredients: kj�ttboller, fl�tesaus, tytteb�r 
 
-Sunday
-fiskegrateng (f)
-Ingredients: pineapple,  carrot, potato
-
+Shopping list: fiskeboller, potato, carrots,  flour, egg, milk,  rice, coconut milk, carrot, canned tomato, beans  pineapple, carrot, potato, pasta,   kj�ttboller, fl�tesaus, tytteb�r  
