@@ -1,29 +1,20 @@
-#list of recipes
-#list of ingredients
-# pick random recipe based on ingredients in pantry, 
-#               only the fresh ingredients are needed to check. Herbs and stuff not really.
-# then fill up the rest of the days of the week with recipes.
-#create a shopping list 
-
 import pandas as pd
 import numpy as np
 import random
-
-from tkinter import *
+import customtkinter as ctk
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-
 def read_data():
-    #open excel file
+    # Open excel file
     file = pd.ExcelFile('meals.xlsx')
     print('data read')
     return pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
 
-#read excel sheet into dataframe
+# Read excel sheet into dataframe
 df = read_data()
 
-#iterate over dataframe and add recipes to lists based on category
+# Iterate over dataframe and add recipes to lists based on category
 def sort_recipes():
     fish_recipes = []
     meat_recipes = []
@@ -42,7 +33,7 @@ fish_recipes, meat_recipes, veg_recipes = sort_recipes()
 def generate_mealplan() -> list:
     meals = []
 
-    #add a recipe of each category to the meals list
+    # Add a recipe of each category to the meals list
     np.random.shuffle(fish_recipes)
     np.random.shuffle(meat_recipes)
     np.random.shuffle(veg_recipes)
@@ -68,7 +59,7 @@ def display_mealplan():
         mealplan_text += f"{days[count]}: \n{meal.Index} ({meal.category})\n"
         mealplan_text += f"Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n"
     
-    mealplan_label.config(text=mealplan_text)
+    mealplan_label.configure(text=mealplan_text)
 
     with open("output.txt", "w") as f:
         f.write(mealplan_text)
@@ -76,22 +67,22 @@ def display_mealplan():
 def add_recipe():
     print('here a recipe would be added')
 
-# Set up Tkinter window
-root = Tk()
+# Set up customtkinter window
+root = ctk.CTk()
 root.title("Meal Planner")
 root.minsize(400, 400)  # width, height
-root.geometry("500x700+0+0")
+root.geometry("500x720+0+0")
 root.iconbitmap("icon.ico")
 
 # Create button to generate meal plan
-generate_button = Button(root, text="Generate Meal Plan", command=display_mealplan, bg='teal', fg='white')
-generate_button.pack(pady=5)
+generate_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
+generate_button.pack(pady=10)
 
-read_data_button = Button(root, text="Add new recipe", command=add_recipe, bg='teal', fg='white')
-read_data_button.pack(pady=5)
+read_data_button = ctk.CTkButton(root, text="Add new recipe", command=add_recipe, fg_color='teal', text_color='white')
+read_data_button.pack(pady=10)
 
 # Label to display the meal plan
-mealplan_label = Label(root, text="", justify=CENTER, font=("Helvetica", 13))
-mealplan_label.pack(pady=40)
+mealplan_label = ctk.CTkLabel(root, text="", justify="center", font=("Helvetica", 18))
+mealplan_label.pack(pady=20)
 
 root.mainloop()

@@ -1,28 +1,28 @@
 Monday: 
-pasta (v)
-Ingredients: pasta,  
+burgers (v)
+Ingredients: burgers, fries, 
 
 Tuesday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrots, 
-
-Wednesday: 
-stamppot (m)
-Ingredients: milk,  potato,
-
-Thursday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
-
-Friday: 
-fish with fries (f)
-Ingredients: fish, fries, 
-
-Saturday: 
 couscous with stew (v)
 Ingredients: couscous, aubergine, 
 
+Wednesday: 
+fiskegrateng (f)
+Ingredients: pineapple, carrot, potato,
+
+Thursday: 
+pie (v)
+Ingredients: flour, egg, milk, 
+
+Friday: 
+pasta (v)
+Ingredients: pasta,  
+
+Saturday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
 Sunday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring onion,
+chicken mango chutney rice (m)
+Ingredients: mango chutney, rice, 
 
