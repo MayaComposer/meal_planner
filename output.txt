@@ -1,1 +1,28 @@
-{'ingredients': {'baked salmon and veggies': 'salmon', 'fiskegrateng': 'pineapple', 'fiskeboller': 'fiskeboller, potato, carrots', 'fish with fries': '', 'paella': '', 'chicken cheese wraps': 'chicken, cheese, wraps, taco herbs', 'kj�ttboller': 'kj�ttboller, fl�tesaus, tytteb�r', 'chicken mango chutney rice': 'mango chutney, rice', 'stamppot': 'milk ', 'pasta': 'pasta', 'curry': 'rice, coconut milk', 'nachos': '', 'miso soup': '', 'couscous with stew': '', 'stir fry noodles': '', 'burgers': '', 'pie': ''}, 'category': {'baked salmon and veggies': 'f', 'fiskegrateng': 'f', 'fiskeboller': 'f', 'fish with fries': 'f', 'paella': 'f', 'chicken cheese wraps': 'm', 'kj�ttboller': 'm', 'chicken mango chutney rice': 'm', 'stamppot': 'm', 'pasta': 'v', 'curry': 'v', 'nachos': 'v', 'miso soup': 'v', 'couscous with stew': 'v', 'stir fry noodles': 'v', 'burgers': 'v', 'pie': 'v'}, 'fresh_ingredients': {'baked salmon and veggies': 'paprika, carrot, potato, onion', 'fiskegrateng': 'carrot, potato', 'fiskeboller': '', 'fish with fries': '', 'paella': '', 'chicken cheese wraps': '', 'kj�ttboller': '', 'chicken mango chutney rice': '', 'stamppot': 'potato', 'pasta': '', 'curry': 'carrot', 'nachos': '', 'miso soup': '', 'couscous with stew': '', 'stir fry noodles': '', 'burgers': '', 'pie': ''}}
+Monday
+pasta (v)
+Ingredients: pasta, 
+
+Tuesday
+burgers (v)
+Ingredients: burgers, fries 
+
+Wednesday
+nachos (v)
+Ingredients: canned tomato, beans 
+
+Thursday
+fish with fries (f)
+Ingredients: fish, fries 
+
+Friday
+pie (v)
+Ingredients: flour, egg, milk 
+
+Saturday
+kj�ttboller (m)
+Ingredients: kj�ttboller, fl�tesaus, tytteb�r 
+
+Sunday
+fiskegrateng (f)
+Ingredients: pineapple,  carrot, potato
+

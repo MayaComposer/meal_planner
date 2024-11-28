@@ -12,7 +12,7 @@ import random
 #open excel file
 file = pd.ExcelFile('meals.xlsx')
 
-column_names = ['Recipe', 'Difficulty', 'M/F/V', 'Ingredients', 'Time']
+column_names = ['Recipe', 'Difficulty', 'M/F/V', 'Ingredients']
 
 #list of recipes
 recipes = []
@@ -22,28 +22,7 @@ days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sun
 meals = []
 
 #read excel sheet into dataframe
-dataframe = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
-
-#open excel file
-#for each column in excel file
-#if the header is recipe, create a dataframe with names=column_names
-#add dataframe to a list "recipes"
-
-# #for col in 
-# for col_name in dataframe:
-#     #check if the column starts with recipe
-#     if col_name.startswith('Recipe'):
-#         loc = dataframe.columns.get_loc(col_name)
-#         new_dataframe = dataframe.iloc[:,loc:loc+5] #dataframe from recipe location+5, end of recipe table
-
-#         recipes.append(new_dataframe) #add dataframes to list
-#         # print(loc)
-#         # print(new_dataframe)
-#         # print('\n')
-
-#pick 7 recipes from recipes list and put into meal_plan list
-# random.shuffle(recipes)
-
+df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
 
 # #1. pick a random recipe for monday
 # #2. check the ingredients, and if use 1-3 of them to pick the next recipe
@@ -60,18 +39,63 @@ dataframe = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
 
 #other method:
 
-#1. pick 2 fish recipes
-#2. pick 1 meat recipe
-#3. pick 4 vegetarian recipes
-#4. add it to a list
+#1. pick 2 fish recipes ✅
+#2. pick 1 meat recipe✅
+#3. pick 4 vegetarian recipes✅
+#4. add it to a list✅
 #5. check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
-#6. profit
 
-recipes = dataframe.to_dict()
+#recipes = dataframe.to_dict('index')
 
-output = open('output.txt', 'w')
 
-print(recipes, file=output)
+#filter recipes and add them to categories
+#for each row, if it is a meat recipe, add to meat recipe list
+#do the same for veg
+#do the same for fish
 
-output.close()
+fish_recipes = []
+meat_recipes = []
+veg_recipes = []
+
+
+#iterate over dataframe and add recipes to lists based on category
+for row in df.itertuples():
+    if row.category == 'f':
+        fish_recipes.append(row)
+    if row.category == 'm':
+        meat_recipes.append(row)
+    if row.category == 'v':
+        veg_recipes.append(row)
+    
+
+#add a recipe of each category to the meals list
+np.random.shuffle(fish_recipes)
+np.random.shuffle(meat_recipes)
+np.random.shuffle(veg_recipes)
+for recipe in range(0, 2):
+    meals.append(fish_recipes[recipe])
+
+for recipe in range(0, 1):
+    meals.append(meat_recipes[recipe])
+
+for recipe in range(0, 4):
+    meals.append(veg_recipes[recipe])
+
+np.random.shuffle(meals)
+
+
+
+
+
+with open("output.txt", "w") as f:
+    count = 0
+    for x in meals:
+        f.write(days[count])
+        f.write('\n')
+        f.write(str(x.Index) + ' (' + str(x.category) + ')')
+        f.write('\n')
+        f.write('Ingredients: ' + str(x.ingredients + ' ' + x.fresh_ingredients))
+        f.write('\n')
+        f.write('\n')
+        count += 1
 
