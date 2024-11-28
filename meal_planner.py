@@ -9,13 +9,24 @@ import pandas as pd
 import numpy as np
 import random
 
+from tkinter import *
+
+# root = Tk()
+# root.title("Tk Example")
+# root.minsize(400, 400)  # width, height
+# root.geometry("300x300+50+50")
+
+# # Create Label in our window
+# text = Label(root, text="fooooooooood")
+# text.pack()
+# text2 = Label(root, text="fooood")
+# text2.pack()
+# root.mainloop()
+
 #open excel file
 file = pd.ExcelFile('meals.xlsx')
 
 column_names = ['Recipe', 'Difficulty', 'M/F/V', 'Ingredients']
-
-#list of recipes
-recipes = []
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
@@ -23,35 +34,6 @@ meals = []
 
 #read excel sheet into dataframe
 df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
-
-# #1. pick a random recipe for monday
-# #2. check the ingredients, and if use 1-3 of them to pick the next recipe
-#check the fresh ingredients and use those to choose recipes so there is overlap between ingredients
-# #3. pick a recipe for tuesday
-# 4. take into account fish, meat, vegetarian
-
-#1. loop through the recipes
-#2. take 7 random recipes
-#3. use different filters (I guess) to check if the recipes are correct
-#for example, check there is a max of 2 fish recipes, and if there is more, replace with vegetarian ones until there is 2
-#check overlap between fresh ingredients
-
-
-#other method:
-
-#1. pick 2 fish recipes ✅
-#2. pick 1 meat recipe✅
-#3. pick 4 vegetarian recipes✅
-#4. add it to a list✅
-#5. check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
-
-#recipes = dataframe.to_dict('index')
-
-
-#filter recipes and add them to categories
-#for each row, if it is a meat recipe, add to meat recipe list
-#do the same for veg
-#do the same for fish
 
 fish_recipes = []
 meat_recipes = []
@@ -98,3 +80,4 @@ with open("output.txt", "w") as f:
     for x in meals:
         f.write(str(x.ingredients + ' ' + x.fresh_ingredients + ' '))
 
+print('meal plan generated')
