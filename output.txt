@@ -1,28 +1,28 @@
 Monday: 
-burgers (v)
-Ingredients: burgers, fries, 
-
-Tuesday: 
-couscous with stew (v)
-Ingredients: couscous, aubergine, 
-
-Wednesday: 
 fiskegrateng (f)
 Ingredients: pineapple, carrot, potato,
 
-Thursday: 
+Tuesday: 
+chicken mango chutney rice (m)
+Ingredients: mango_chutney, rice, 
+
+Wednesday: 
 pie (v)
 Ingredients: flour, egg, milk, 
 
+Thursday: 
+burgers (v)
+Ingredients: burgers, fries, 
+
 Friday: 
-pasta (v)
-Ingredients: pasta,  
+baked salmon and veggies (f)
+Ingredients: salmon, paprika, carrot, potato, onion,
 
 Saturday: 
-fish with fries (f)
-Ingredients: fish, fries, 
+nachos (v)
+Ingredients: canned_tomato, beans, 
 
 Sunday: 
-chicken mango chutney rice (m)
-Ingredients: mango chutney, rice, 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
 
