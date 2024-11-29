@@ -52,6 +52,24 @@ def generate_mealplan() -> list:
 
     return meals
 
+def write_to_file(text: str):
+    with open("output.txt", "w") as f:
+        f.write(text)
+
+def add_recipe():
+    print('here a recipe would be added')
+
+def remove_duplicates(input_list: list) -> list:
+
+    # Sample list with duplicate strings
+    original_list = input_list
+
+    # Remove duplicates using a set
+    unique_list = list(set(original_list))
+
+    #print('unique list: ' + str(unique_list))
+    return unique_list
+
 shopping_list_string = ''
 shopping_list = []
 
@@ -71,50 +89,28 @@ def display_mealplan():
 
         #shopping list
         shopping_list_string += f'{meal.ingredients}{meal.fresh_ingredients}'
-        shopping_list_string = shopping_list_string.replace(" ", "")
-        shopping_list = shopping_list_string.rsplit(',')
+        shopping_list_string = shopping_list_string.replace(' ', '')
+        shopping_list = shopping_list_string.split(',') #returns a list
+        shopping_list = list(filter(None, shopping_list))
     
     mealplan_label.configure(text=mealplan_text)
 
     shopping_list = remove_duplicates(shopping_list)
 
     #configure shopping list
-    shopping_list_text = ''
+    shopping_list_text = 'Shopping list: \n'
     
     for ingredient in shopping_list:
         shopping_list_text += f'- {ingredient}\n'
 
-    # print(shopping_list_string)
-    # print(shopping_list)
-    # print(shopping_list_text)
+    print(shopping_list_string)
+    print(shopping_list)
+    print(shopping_list_text)
 
     #also add to file
-    write_to_file(mealplan_text)
+    write_to_file(mealplan_text+shopping_list_text)
 
-def write_to_file(mealplan_text):
-    with open("output.txt", "w") as f:
-        f.write(mealplan_text)
 
-def add_recipe():
-    print('here a recipe would be added')
-
-def remove_duplicates(list: list):
-
-    # A set to keep track of elements that have been seen
-    seen = set()
-    # A list to store duplicates found in the input list
-    duplicates = []
-
-    # Iterate over each element in the list
-    for i in list:
-        if i in seen:
-            duplicates.append(i)
-        else:
-            seen.add(i)
-
-    print(duplicates)
-    print(list)
-    return list
 
 
 # Set up customtkinter window
@@ -124,15 +120,21 @@ root.minsize(400, 400)  # width, height
 root.geometry("500x720+0+0")
 root.iconbitmap("icon.ico")
 
-# Create button to generate meal plan
-generate_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
-generate_button.pack(pady=10)
+root.grid_columnconfigure(0, weight=1)
 
-read_data_button = ctk.CTkButton(root, text="Add new recipe", command=add_recipe, fg_color='teal', text_color='white')
-read_data_button.pack(pady=10)
+# Create button to generate meal plan
+generate_mealplan_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
+generate_mealplan_button.grid(row=0, column=0, padx=10, pady=10)
+
+add_recipe_button = ctk.CTkButton(root, text="Add new recipe", command=add_recipe, fg_color='teal', text_color='white')
+add_recipe_button.grid(row=1, column=0, padx=10, pady=10)
+
+quit_button = ctk.CTkButton(root, text='quit', command=quit, fg_color='teal', text_color='white')
+quit_button.grid(row=0, column=1, padx=0, pady=0)
 
 # Label to display the meal plan
 mealplan_label = ctk.CTkLabel(root, text="", justify="center", font=("Helvetica", 18))
-mealplan_label.pack(pady=20)
+mealplan_label.grid(row=2, column=0, padx=10, pady=0)
 
 root.mainloop()
+

@@ -1,28 +1,44 @@
 Monday: 
-fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
+pasta (v)
+Ingredients: pasta, 
 
 Tuesday: 
-chicken mango chutney rice (m)
-Ingredients: mango_chutney, rice, 
+nachos (v)
+Ingredients: canned_tomato, beans, 
 
 Wednesday: 
-pie (v)
-Ingredients: flour, egg, milk, 
+stamppot (m)
+Ingredients: milk,  potato,
 
 Thursday: 
-burgers (v)
-Ingredients: burgers, fries, 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrots, 
 
 Friday: 
 baked salmon and veggies (f)
 Ingredients: salmon, paprika, carrot, potato, onion,
 
 Saturday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
 
 Sunday: 
 stir fry noodles (v)
 Ingredients: noodles, carrot, spring_onion,
 
+Shopping list: 
+- fiskeboller
+- spring_onion
+- salmon
+- canned_tomato
+- potato
+- milk
+- beans
+- carrots
+- paprika
+- carrot
+- miso
+- onion
+- dashi
+- noodles
+- pasta
