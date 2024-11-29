@@ -70,6 +70,13 @@ def remove_duplicates(input_list: list) -> list:
     #print('unique list: ' + str(unique_list))
     return unique_list
 
+def configure_shopping_list() -> str:
+    shopping_list_text = 'Shopping list: \n'
+    
+    for ingredient in shopping_list:
+        shopping_list_text += f'- {ingredient}\n'
+    return shopping_list_text
+
 shopping_list_string = ''
 shopping_list = []
 
@@ -95,17 +102,11 @@ def display_mealplan():
     
     mealplan_label.configure(text=mealplan_text)
 
-    shopping_list = remove_duplicates(shopping_list)
 
     #configure shopping list
-    shopping_list_text = 'Shopping list: \n'
-    
-    for ingredient in shopping_list:
-        shopping_list_text += f'- {ingredient}\n'
+    shopping_list = remove_duplicates(shopping_list)
 
-    print(shopping_list_string)
-    print(shopping_list)
-    print(shopping_list_text)
+    shopping_list_text = configure_shopping_list()
 
     #also add to file
     write_to_file(mealplan_text+shopping_list_text)

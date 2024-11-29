@@ -1,44 +1,46 @@
 Monday: 
+couscous with stew (v)
+Ingredients: couscous, aubergine, 
+
+Tuesday: 
+fiskegrateng (f)
+Ingredients: pineapple, carrot, potato,
+
+Wednesday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
+Thursday: 
+chicken cheese wraps (m)
+Ingredients: chicken, cheese, wraps, taco herbs, 
+
+Friday: 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
+
+Saturday: 
+pie (v)
+Ingredients: flour, egg, milk, 
+
+Sunday: 
 pasta (v)
 Ingredients: pasta, 
 
-Tuesday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
-
-Wednesday: 
-stamppot (m)
-Ingredients: milk,  potato,
-
-Thursday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrots, 
-
-Friday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
-
-Saturday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
-
-Sunday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
-
 Shopping list: 
-- fiskeboller
-- spring_onion
-- salmon
-- canned_tomato
+- pineapple
 - potato
-- milk
-- beans
-- carrots
-- paprika
-- carrot
-- miso
-- onion
-- dashi
-- noodles
+- flour
+- couscous
+- rice
+- coconutmilk
+- fries
+- fish
+- chicken
+- aubergine
+- wraps
 - pasta
+- carrot
+- milk
+- tacoherbs
+- cheese
+- egg
