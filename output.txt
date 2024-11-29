@@ -3,42 +3,40 @@ fiskegrateng (f)
 Ingredients: pineapple, carrot, potato,
 
 Tuesday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrots, 
+chicken mango chutney rice (m)
+Ingredients: mango_chutney, rice, 
 
 Wednesday: 
-curry (v)
-Ingredients: rice, coconut milk, carrot,
-
-Thursday: 
-pasta (v)
-Ingredients: pasta, 
-
-Friday: 
-kjøttboller (m)
-Ingredients: kjøttboller, fløtesaus, tyttebær, 
-
-Saturday: 
-couscous with stew (v)
-Ingredients: couscous, aubergine, 
-
-Sunday: 
 stir fry noodles (v)
 Ingredients: noodles, carrot, spring_onion,
 
+Thursday: 
+burgers (v)
+Ingredients: burgers, fries, 
+
+Friday: 
+couscous with stew (v)
+Ingredients: couscous, aubergine, 
+
+Saturday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
+Sunday: 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
+
 Shopping list: 
-- noodles
-- tyttebær
 - pineapple
-- potato
-- couscous
 - rice
-- coconutmilk
-- fiskeboller
-- kjøttboller
-- fløtesaus
-- carrots
-- aubergine
-- pasta
-- carrot
+- mango_chutney
+- potato
+- noodles
 - spring_onion
+- fish
+- carrot
+- fries
+- coconutmilk
+- couscous
+- burgers
+- aubergine

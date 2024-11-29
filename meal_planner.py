@@ -5,11 +5,12 @@ import customtkinter as ctk
 
 days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
-def read_data():
+def read_data() -> pd.DataFrame:
     # Open excel file
     file = pd.ExcelFile('meals.xlsx')
     print('data read')
-    return pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
+    df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
+    return df
 
 # Read excel sheet into dataframe
 df = read_data()
@@ -52,11 +53,11 @@ def generate_mealplan() -> list:
 
     return meals
 
-def write_to_file(text: str):
-    with open("output.txt", "w") as f:
-        f.write(text)
+def write_to_file(text: str) -> None:
+    with open("output.txt", "w") as file:
+        file.write(text)
 
-def add_recipe():
+def add_recipe() -> None:
     print('here a recipe would be added')
 
 def remove_duplicates(input_list: list) -> list:
@@ -80,7 +81,7 @@ def configure_shopping_list() -> str:
 shopping_list_string = ''
 shopping_list = []
 
-def display_mealplan():
+def display_mealplan() -> None:
     meals = generate_mealplan()
     mealplan_text = ''
 
@@ -135,7 +136,7 @@ quit_button.grid(row=0, column=1, padx=0, pady=0)
 
 # Label to display the meal plan
 mealplan_label = ctk.CTkLabel(root, text="", justify="center", font=("Helvetica", 18))
-mealplan_label.grid(row=2, column=0, padx=10, pady=0)
+mealplan_label.grid(row=2, column=0, padx=10, pady=10, columnspan=2)
 
 root.mainloop()
 
