@@ -1,46 +1,44 @@
 Monday: 
-couscous with stew (v)
-Ingredients: couscous, aubergine, 
-
-Tuesday: 
 fiskegrateng (f)
 Ingredients: pineapple, carrot, potato,
 
+Tuesday: 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrots, 
+
 Wednesday: 
-fish with fries (f)
-Ingredients: fish, fries, 
-
-Thursday: 
-chicken cheese wraps (m)
-Ingredients: chicken, cheese, wraps, taco herbs, 
-
-Friday: 
 curry (v)
 Ingredients: rice, coconut milk, carrot,
 
-Saturday: 
-pie (v)
-Ingredients: flour, egg, milk, 
-
-Sunday: 
+Thursday: 
 pasta (v)
 Ingredients: pasta, 
 
+Friday: 
+kjøttboller (m)
+Ingredients: kjøttboller, fløtesaus, tyttebær, 
+
+Saturday: 
+couscous with stew (v)
+Ingredients: couscous, aubergine, 
+
+Sunday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+
 Shopping list: 
+- noodles
+- tyttebær
 - pineapple
 - potato
-- flour
 - couscous
 - rice
 - coconutmilk
-- fries
-- fish
-- chicken
+- fiskeboller
+- kjøttboller
+- fløtesaus
+- carrots
 - aubergine
-- wraps
 - pasta
 - carrot
-- milk
-- tacoherbs
-- cheese
-- egg
+- spring_onion
