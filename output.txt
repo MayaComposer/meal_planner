@@ -1,42 +1,44 @@
 Monday: 
-fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
-
-Tuesday: 
-chicken mango chutney rice (m)
-Ingredients: mango_chutney, rice, 
-
-Wednesday: 
 stir fry noodles (v)
 Ingredients: noodles, carrot, spring_onion,
 
+Tuesday: 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrots, 
+
+Wednesday: 
+ADDED_RECIPE (v)
+Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
+
 Thursday: 
-burgers (v)
-Ingredients: burgers, fries, 
+chicken cheese wraps (m)
+Ingredients: chicken, cheese, wraps, taco herbs, 
 
 Friday: 
-couscous with stew (v)
-Ingredients: couscous, aubergine, 
-
-Saturday: 
 fish with fries (f)
 Ingredients: fish, fries, 
 
+Saturday: 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
+
 Sunday: 
-curry (v)
-Ingredients: rice, coconut milk, carrot,
+ADDED_RECIPE (v)
+Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
 
 Shopping list: 
-- pineapple
-- rice
-- mango_chutney
-- potato
 - noodles
-- spring_onion
+- wraps
+- tacoherbs
+- carrots
 - fish
-- carrot
 - fries
-- coconutmilk
-- couscous
-- burgers
-- aubergine
+- fiskeboller
+- potato
+- miso
+- dashi
+- TEST_INGREDIENTSTEST_FRESH_INGREDIENTSchicken
+- cheese
+- carrot
+- spring_onion
+- TEST_INGREDIENTSTEST_FRESH_INGREDIENTS
