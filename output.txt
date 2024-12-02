@@ -1,50 +1,75 @@
 Monday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
 
 Tuesday: 
-paella (f)
-Ingredients: rice, fish, veg, 
+nachos (v)
+Ingredients: canned_tomato, beans, 
 
 Wednesday: 
-ADDED_RECIPE (v)
-Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
+couscous with stew (v)
+Ingredients: couscous, aubergine, 
 
 Thursday: 
-ADDED_RECIPE (v)
-Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
-
-Friday: 
-ADDED_RECIPE (v)
-Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
-
-Saturday: 
-ADDED_RECIPE (v)
-Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
-
-Sunday: 
 baked salmon and veggies (f)
 Ingredients: salmon, paprika, carrot, potato, onion,
 
+Friday: 
+paella (f)
+Ingredients: rice, fish, veg, 
+
+Saturday: 
+chicken_wings (m)
+Ingredients: chicken_wings, 
+
+Sunday: 
+burgers (v)
+Ingredients: burgers, fries, 
+
 Shopping list: 
 - Monday
-chicken_wings
+noodles
+- carrot
+- spring_onion
 - Tuesday
+canned_tomato
+- beans
+- Wednesday
+couscous
+- aubergine
+- Thursday
+salmon
+- paprika
+- potato
+- onion
+- Friday
 rice
 - fish
 - veg
-- Wednesday
-TEST_INGREDIENTS
-- TEST_FRESH_INGREDIENTS
-- Thursday
-TEST_INGREDIENTS
-- Friday
-TEST_INGREDIENTS
 - Saturday
-TEST_INGREDIENTS
+chicken_wings
 - Sunday
-salmon
-- paprika
-- carrot
-- potato
-- onion
+burgers
+- fries
+                                                    ingredients  ...                   instructions
+recipe_name                                                      ...                               
+baked salmon and veggies                                salmon,  ...                               
+burgers                                         burgers, fries,  ...                               
+chicken cheese wraps        chicken, cheese, wraps, taco herbs,  ...                               
+chicken mango chutney rice                 mango_chutney, rice,  ...                               
+chicken_wings                                    chicken_wings,  ...                               
+couscous with stew                         couscous, aubergine,  ...                               
+curry                                       rice, coconut milk,  ...                               
+fish with fries                                    fish, fries,  ...                               
+fiskeboller                       fiskeboller, potato, carrots,  ...                               
+fiskegrateng                                         pineapple,  ...                               
+kjøttboller                   kjøttboller, fløtesaus, tyttebær,  ...                               
+miso soup                                 miso, dashi, noodles,  ...                               
+nachos                                    canned_tomato, beans,  ...                               
+paella                                         rice, fish, veg,  ...                               
+pasta                                                    pasta,  ...  add anything that is leftover
+pie                                           flour, egg, milk,  ...                      leftovers
+stamppot                                                 milk,   ...                               
+stir fry noodles                                       noodles,  ...                               
+
+[18 rows x 4 columns]

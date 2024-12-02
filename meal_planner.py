@@ -51,13 +51,17 @@ def write_to_file(text: str) -> None:
     with open("output.txt", "w") as file:
         file.write(text)
 
-def add_recipe() -> None:
-    global df, fish_recipes, meat_recipes, veg_recipes
-
-    recipe = pd.DataFrame([['TEST_INGREDIENTS', 'v', 'TEST_FRESH_INGREDIENTS', '']], columns=['ingredients', 'category', 'fresh_ingredients', 'instructions'], index=['ADDED_RECIPE'])
+def add_recipe(df: pd.DataFrame, recipe=pd.DataFrame([['TEST_INGREDIENTS', 'v', 'TEST_FRESH_INGREDIENTS', '']], columns=['ingredients', 'category', 'fresh_ingredients', 'instructions'], index=['ADDED_RECIPE'])) -> pd.DataFrame:
+    
+    #Here we'd probably do smth with the input recipe data so it becomes a dataframe and can be added to df but for now it is just default values
+    print('recipe added')
 
     #add a new recipe to df
-    df = pd.concat([df, recipe])
+    return pd.concat([df, recipe])
+
+def pressed_add_recipe() -> None:
+    global df, fish_recipes, meat_recipes, veg_recipes
+    df = add_recipe(df)
 
     #sort the recipes again
     fish_recipes, meat_recipes, veg_recipes = sort_recipes()
@@ -130,7 +134,7 @@ root.grid_columnconfigure(0, weight=1)
 generate_mealplan_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
 generate_mealplan_button.grid(row=0, column=0, padx=10, pady=10)
 
-add_recipe_button = ctk.CTkButton(root, text="Add new recipe", command=add_recipe, fg_color='teal', text_color='white')
+add_recipe_button = ctk.CTkButton(root, text="Add new recipe", command=pressed_add_recipe, fg_color='teal', text_color='white')
 add_recipe_button.grid(row=1, column=0, padx=10, pady=10)
 
 quit_button = ctk.CTkButton(root, text='quit', command=quit, fg_color='teal', text_color='white')
