@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 import customtkinter as ctk
+from collections import OrderedDict
 
 def read_data() -> pd.DataFrame:
     # Open excel file
@@ -62,17 +63,10 @@ def add_recipe() -> None:
     fish_recipes, meat_recipes, veg_recipes = sort_recipes()
 
 def remove_duplicates(input_list: list) -> list:
+    # Remove duplicates while preserving order
+    return list(OrderedDict.fromkeys(input_list))
 
-    # Sample list with duplicate strings
-    original_list = input_list
-
-    # Remove duplicates using a set
-    unique_list = list(set(original_list))
-
-    #print('unique list: ' + str(unique_list))
-    return unique_list
-
-def configure_shopping_list() -> str:
+def configure_shopping_list(shopping_list) -> str:
     shopping_list_text = 'Shopping list: \n'
     
     for ingredient in shopping_list:
@@ -89,26 +83,26 @@ def display_mealplan() -> None:
     shopping_list_string = ''
 
     for count, meal in enumerate(meals):
-        #meal plan
+        # Meal plan
         mealplan_text += f'{days[count]}: \n{meal.Index} ({meal.category})\n'
         mealplan_text += f'Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n'
 
-        #shopping list
-        shopping_list_string += f'{meal.ingredients}{meal.fresh_ingredients}'
-        shopping_list_string = shopping_list_string.replace(' ', '')
-        shopping_list = shopping_list_string.split(',') #returns a list
-        shopping_list = list(filter(None, shopping_list))
+        # Shopping list
+        shopping_list_string += f'{days[count]} \n {meal.ingredients},{meal.fresh_ingredients},'
     
     mealplan_label.configure(text=mealplan_text)
 
+    # Remove spaces and split into a list
+    shopping_list_string = shopping_list_string.replace(' ', '')
+    shopping_list = shopping_list_string.split(',')
+    shopping_list = list(filter(None, shopping_list))
 
-    #configure shopping list
+    # Configure shopping list
     shopping_list = remove_duplicates(shopping_list)
+    shopping_list_text = configure_shopping_list(shopping_list)
 
-    shopping_list_text = configure_shopping_list()
-
-    #also add to file
-    write_to_file(mealplan_text+shopping_list_text)
+    # Also add to file
+    write_to_file(mealplan_text + shopping_list_text)
 
 
 #GLOBAL VARIABLES

@@ -1,44 +1,50 @@
 Monday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
+chicken_wings (m)
+Ingredients: chicken_wings, 
 
 Tuesday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrots, 
+paella (f)
+Ingredients: rice, fish, veg, 
 
 Wednesday: 
 ADDED_RECIPE (v)
 Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
 
 Thursday: 
-chicken cheese wraps (m)
-Ingredients: chicken, cheese, wraps, taco herbs, 
-
-Friday: 
-fish with fries (f)
-Ingredients: fish, fries, 
-
-Saturday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
-
-Sunday: 
 ADDED_RECIPE (v)
 Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
 
+Friday: 
+ADDED_RECIPE (v)
+Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
+
+Saturday: 
+ADDED_RECIPE (v)
+Ingredients: TEST_INGREDIENTS TEST_FRESH_INGREDIENTS
+
+Sunday: 
+baked salmon and veggies (f)
+Ingredients: salmon, paprika, carrot, potato, onion,
+
 Shopping list: 
-- noodles
-- wraps
-- tacoherbs
-- carrots
+- Monday
+chicken_wings
+- Tuesday
+rice
 - fish
-- fries
-- fiskeboller
-- potato
-- miso
-- dashi
-- TEST_INGREDIENTSTEST_FRESH_INGREDIENTSchicken
-- cheese
+- veg
+- Wednesday
+TEST_INGREDIENTS
+- TEST_FRESH_INGREDIENTS
+- Thursday
+TEST_INGREDIENTS
+- Friday
+TEST_INGREDIENTS
+- Saturday
+TEST_INGREDIENTS
+- Sunday
+salmon
+- paprika
 - carrot
-- spring_onion
-- TEST_INGREDIENTSTEST_FRESH_INGREDIENTS
+- potato
+- onion
