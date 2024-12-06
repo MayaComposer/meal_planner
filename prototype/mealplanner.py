@@ -46,14 +46,9 @@ def generate_mealplan() -> list:
     _meat_recipes = random.sample(meat_recipes, len(meat_recipes))
     _veg_recipes = random.sample(veg_recipes, len(veg_recipes))
 
-    for recipe in range(0, 2):
-        meals.append(_fish_recipes[recipe])
-
-    for recipe in range(0, 1):
-        meals.append(_meat_recipes[recipe])
-
-    for recipe in range(0, 4):
-        meals.append(_veg_recipes[recipe])
+    meals.extend(_fish_recipes[:2])
+    meals.extend(_meat_recipes[:1])
+    meals.extend(_veg_recipes[:4])
 
     np.random.shuffle(meals)
 
@@ -82,7 +77,7 @@ def remove_duplicates(input_list: list) -> list:
     # Remove duplicates while preserving order
     return list(OrderedDict.fromkeys(input_list))
 
-def configure_shopping_list(shopping_list) -> str:
+def shopping_list_to_text(shopping_list) -> str:
     shopping_list_text = 'Shopping list: \n'
     
     for ingredient in shopping_list:
@@ -91,34 +86,51 @@ def configure_shopping_list(shopping_list) -> str:
 
 def display_mealplan() -> None:
     meals = generate_mealplan()
+    print(meals)
     mealplan_text = ''
+    
+    mealplan_text = configure_mealplan_text(meals, mealplan_text)
+    
+    mealplan_label.configure(text=mealplan_text)
+    print('mealplan text' + mealplan_text)
 
-    global shopping_list
-    global shopping_list_string
+    shopping_list_text = configure_shopping_list(meals)
+
+    # Also add to file
+    write_to_file(mealplan_text + shopping_list_text)
+
+def configure_shopping_list(meals) -> str:
     shopping_list = []
     shopping_list_string = ''
 
     for count, meal in enumerate(meals):
-        # Meal plan
-        mealplan_text += f'{days[count]}: \n{meal.Index} ({meal.category})\n'
-        mealplan_text += f'Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n'
-
         # Shopping list
         shopping_list_string += f'{days[count]} \n {meal.ingredients},{meal.fresh_ingredients},'
-    
-    mealplan_label.configure(text=mealplan_text)
 
     # Remove spaces and split into a list
     shopping_list_string = shopping_list_string.replace(' ', '')
+
+
     shopping_list = shopping_list_string.split(',')
     shopping_list = list(filter(None, shopping_list))
 
     # Configure shopping list
     shopping_list = remove_duplicates(shopping_list)
-    shopping_list_text = configure_shopping_list(shopping_list)
+    shopping_list_text = shopping_list_to_text(shopping_list)
+    return shopping_list_text
 
-    # Also add to file
-    write_to_file(mealplan_text + shopping_list_text)
+def configure_mealplan_text(meals, mealplan_text):
+    for count, meal in enumerate(meals):
+        # Meal plan
+        mealplan_text += f'{days[count]}: \n{meal.Index} ({meal.category})\n'
+        mealplan_text += f'Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n'
+    
+    print('mealplan function')
+    print(mealplan_text)
+
+    return mealplan_text
+
+        
 
 # Set up customtkinter window
 root = ctk.CTk()
@@ -127,22 +139,18 @@ root.minsize(400, 400)  # width, height
 root.geometry("500x720+0+0")
 root.iconbitmap("icon.ico")
 
-root.grid_columnconfigure(0, weight=1)
-root.grid_columnconfigure(1, weight=1)
-root.grid_columnconfigure(2, weight=1)
-
-root.grid_rowconfigure(0, weight=1)
-root.grid_rowconfigure(1, weight=1)
+root.grid_columnconfigure((0, 1, 2), weight=1)
+root.grid_rowconfigure((0, 1, 2), weight=1)
 
 # Create button to generate meal plan
 generate_mealplan_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
-generate_mealplan_button.grid(row=1, column=1, padx=0, pady=0)
+generate_mealplan_button.grid(row=2, column=1, padx=5, pady=0, sticky="ew")
 
 add_recipe_button = ctk.CTkButton(root, text="Add new recipe", command=pressed_add_recipe, fg_color='teal', text_color='white')
-add_recipe_button.grid(row=1, column=0, padx=0, pady=0)
+add_recipe_button.grid(row=2, column=0, padx=5, pady=0, sticky="ew")
 
 quit_button = ctk.CTkButton(root, text='quit', command=quit, fg_color='teal', text_color='white')
-quit_button.grid(row=1, column=2, padx=0, pady=0)
+quit_button.grid(row=2, column=2, padx=5, pady=0, sticky="ew")
 
 # Label to display the meal plan
 mealplan_label = ctk.CTkLabel(root, text="", justify="center", font=("Helvetica", 16))
