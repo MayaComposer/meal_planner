@@ -1,75 +1,54 @@
 Monday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
+pie (v)
+Ingredients: flour, egg, milk, 
 
 Tuesday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
 
 Wednesday: 
-couscous with stew (v)
-Ingredients: couscous, aubergine, 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
 
 Thursday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
-
-Friday: 
 paella (f)
 Ingredients: rice, fish, veg, 
 
+Friday: 
+stamppot (m)
+Ingredients: milk,  potato,
+
 Saturday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
+pasta (v)
+Ingredients: pasta, 
 
 Sunday: 
-burgers (v)
-Ingredients: burgers, fries, 
+baked salmon and veggies (f)
+Ingredients: salmon, paprika, carrot, potato, onion,
 
 Shopping list: 
 - Monday
-noodles
-- carrot
-- spring_onion
+flour
+- egg
+- milk
 - Tuesday
-canned_tomato
-- beans
+miso
+- dashi
+- noodles
 - Wednesday
-couscous
-- aubergine
+rice
+- coconutmilk
+- carrot
 - Thursday
-salmon
-- paprika
-- potato
-- onion
-- Friday
 rice
 - fish
 - veg
+- Friday
+milk
+- potato
 - Saturday
-chicken_wings
+pasta
 - Sunday
-burgers
-- fries
-                                                    ingredients  ...                   instructions
-recipe_name                                                      ...                               
-baked salmon and veggies                                salmon,  ...                               
-burgers                                         burgers, fries,  ...                               
-chicken cheese wraps        chicken, cheese, wraps, taco herbs,  ...                               
-chicken mango chutney rice                 mango_chutney, rice,  ...                               
-chicken_wings                                    chicken_wings,  ...                               
-couscous with stew                         couscous, aubergine,  ...                               
-curry                                       rice, coconut milk,  ...                               
-fish with fries                                    fish, fries,  ...                               
-fiskeboller                       fiskeboller, potato, carrots,  ...                               
-fiskegrateng                                         pineapple,  ...                               
-kjøttboller                   kjøttboller, fløtesaus, tyttebær,  ...                               
-miso soup                                 miso, dashi, noodles,  ...                               
-nachos                                    canned_tomato, beans,  ...                               
-paella                                         rice, fish, veg,  ...                               
-pasta                                                    pasta,  ...  add anything that is leftover
-pie                                           flour, egg, milk,  ...                      leftovers
-stamppot                                                 milk,   ...                               
-stir fry noodles                                       noodles,  ...                               
-
-[18 rows x 4 columns]
+salmon
+- paprika
+- onion

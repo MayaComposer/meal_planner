@@ -6,10 +6,18 @@ from collections import OrderedDict
 
 def read_data() -> pd.DataFrame:
     # Open excel file
-    file = pd.ExcelFile('meals.xlsx')
+    file = pd.ExcelFile('./data/meals.xlsx')
     print('data read')
     df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
     return df
+
+#GLOBAL VARIABLES
+
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+
+# Read excel sheet into dataframe
+df = read_data()
+
 
 # Iterate over dataframe and add recipes to lists based on category
 def sort_recipes():
@@ -25,25 +33,29 @@ def sort_recipes():
             veg_recipes.append(row)
     return fish_recipes, meat_recipes, veg_recipes
 
+fish_recipes, meat_recipes, veg_recipes = sort_recipes()
+
+shopping_list_string = ''
+shopping_list = []
+
 def generate_mealplan() -> list:
     meals = []
 
     # Add a recipe of each category to the meals list
-    np.random.shuffle(fish_recipes)
-    np.random.shuffle(meat_recipes)
-    np.random.shuffle(veg_recipes)
+    _fish_recipes = random.sample(fish_recipes, len(fish_recipes))
+    _meat_recipes = random.sample(meat_recipes, len(meat_recipes))
+    _veg_recipes = random.sample(veg_recipes, len(veg_recipes))
+
     for recipe in range(0, 2):
-        meals.append(fish_recipes[recipe])
+        meals.append(_fish_recipes[recipe])
 
     for recipe in range(0, 1):
-        meals.append(meat_recipes[recipe])
+        meals.append(_meat_recipes[recipe])
 
     for recipe in range(0, 4):
-        meals.append(veg_recipes[recipe])
+        meals.append(_veg_recipes[recipe])
 
     np.random.shuffle(meals)
-
-    #print('mealplan generated')
 
     return meals
 
@@ -108,19 +120,6 @@ def display_mealplan() -> None:
     # Also add to file
     write_to_file(mealplan_text + shopping_list_text)
 
-
-#GLOBAL VARIABLES
-
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-
-# Read excel sheet into dataframe
-df = read_data()
-
-fish_recipes, meat_recipes, veg_recipes = sort_recipes()
-
-shopping_list_string = ''
-shopping_list = []
-
 # Set up customtkinter window
 root = ctk.CTk()
 root.title("Meal Planner")
@@ -129,20 +128,26 @@ root.geometry("500x720+0+0")
 root.iconbitmap("icon.ico")
 
 root.grid_columnconfigure(0, weight=1)
+root.grid_columnconfigure(1, weight=1)
+root.grid_columnconfigure(2, weight=1)
+
+root.grid_rowconfigure(0, weight=1)
+root.grid_rowconfigure(1, weight=1)
 
 # Create button to generate meal plan
 generate_mealplan_button = ctk.CTkButton(root, text="Generate Meal Plan", command=display_mealplan, fg_color='teal', text_color='white')
-generate_mealplan_button.grid(row=0, column=0, padx=10, pady=10)
+generate_mealplan_button.grid(row=1, column=1, padx=0, pady=0)
 
 add_recipe_button = ctk.CTkButton(root, text="Add new recipe", command=pressed_add_recipe, fg_color='teal', text_color='white')
-add_recipe_button.grid(row=1, column=0, padx=10, pady=10)
+add_recipe_button.grid(row=1, column=0, padx=0, pady=0)
 
 quit_button = ctk.CTkButton(root, text='quit', command=quit, fg_color='teal', text_color='white')
-quit_button.grid(row=0, column=1, padx=0, pady=0)
+quit_button.grid(row=1, column=2, padx=0, pady=0)
 
 # Label to display the meal plan
 mealplan_label = ctk.CTkLabel(root, text="", justify="center", font=("Helvetica", 16))
-mealplan_label.grid(row=2, column=0, padx=10, pady=10, columnspan=2)
+mealplan_label.grid(row=0, column=0, padx=0, pady=0, columnspan=3, sticky="ew")
 
+display_mealplan()
 root.mainloop()
 
