@@ -1,5 +1,5 @@
-import pandas as pd
 import numpy as np
+import pandas as pd
 import random
 
 def read_data(file_path: str) -> pd.DataFrame:
@@ -44,5 +44,11 @@ def main():
     mealplan_text = configure_mealplan_text(meals)
     write_to_file(mealplan_text)
 
+    meal_dict = df.to_dict('index')
+    print(meal_dict['chicken cheese wraps']['ingredients'])
+
+    with open("dict.txt", "w") as file:
+        file.write(str(meal_dict))
+        
 if __name__ == "__main__":
     main()

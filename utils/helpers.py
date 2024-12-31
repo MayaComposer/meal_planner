@@ -19,11 +19,13 @@ def configure_shopping_list(meals) -> str:
     days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 
     for count, meal in enumerate(meals):
-        shopping_list_string += f'{days[count]} \n {meal.ingredients},{meal.fresh_ingredients},'
+        shopping_list_string += f'{meal.ingredients},{meal.fresh_ingredients},'
 
     shopping_list_string = shopping_list_string.replace(' ', '')
     shopping_list = shopping_list_string.split(',')
     shopping_list = list(filter(None, shopping_list))
+
+    print(shopping_list)
 
     shopping_list = remove_duplicates(shopping_list)
     shopping_list_text = shopping_list_to_text(shopping_list)

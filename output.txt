@@ -1,52 +1,45 @@
 Monday: 
-couscous with stew (v)
-Ingredients: couscous,  aubergine,
+paella (f)
+Ingredients: rice, fish, veg, 
 
 Tuesday: 
-burgers (v)
-Ingredients: burgers, fries, 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
 
 Wednesday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
-
-Thursday: 
-fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
-
-Friday: 
 baked salmon and veggies (f)
 Ingredients: salmon, paprika, carrot, potato, onion,
 
+Thursday: 
+chicken mango chutney rice (m)
+Ingredients: mango_chutney, rice, 
+
+Friday: 
+couscous with stew (v)
+Ingredients: couscous,  aubergine,
+
 Saturday: 
-kjøttboller (m)
-Ingredients: kjøttboller, fløtesaus, tyttebær, 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
 
 Sunday: 
 pasta (v)
 Ingredients: pasta, 
 
 Shopping list: 
-- Monday
-couscous
-- aubergine
-- Tuesday
-burgers
-- fries
-- Wednesday
-canned_tomato
-- beans
-- Thursday
-pineapple
+- rice
+- fish
+- veg
+- miso
+- dashi
+- noodles
+- salmon
+- paprika
 - carrot
 - potato
-- Friday
-salmon
-- paprika
 - onion
-- Saturday
-kjøttboller
-- fløtesaus
-- tyttebær
-- Sunday
-pasta
+- mango_chutney
+- couscous
+- aubergine
+- coconutmilk
+- pasta
