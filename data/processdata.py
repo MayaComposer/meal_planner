@@ -55,10 +55,12 @@ def main():
     write_to_file(mealplan_text)
 
     meal_dict = df.to_dict('index')
-    print(meal_dict['chicken cheese wraps']['ingredients'])
+
+    dataframe = pd.DataFrame(meal_dict)
+    print(dataframe.loc['category'])
 
     with open("dict.txt", "w") as file:
-        file.write(str(meal_dict))
+        file.write(str(dataframe))
         
 if __name__ == "__main__":
     main()

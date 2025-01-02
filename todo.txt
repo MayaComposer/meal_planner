@@ -13,3 +13,5 @@
 - convert from excel to JSON or python dictionary. Dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. 
 
 - check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
+
+- try to get a kivy sketch working

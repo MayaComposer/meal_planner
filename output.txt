@@ -1,29 +1,29 @@
 Week 1
 Monday: 
-couscous with stew (v)
-Ingredients: couscous,  aubergine,
+pie (v)
+Ingredients: flour, egg, milk, 
 
 Tuesday: 
-chicken mango chutney rice (m)
-Ingredients: mango_chutney, rice, 
-
-Wednesday: 
-burgers (v)
-Ingredients: burgers, fries, 
-
-Thursday: 
-fish with fries (f)
-Ingredients: fish, fries, 
-
-Friday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
-
-Saturday: 
 miso soup (v)
 Ingredients: miso, dashi, noodles, 
 
-Sunday: 
+Wednesday: 
+fiskegrateng (f)
+Ingredients: pineapple, carrot, potato,
+
+Thursday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+
+Friday: 
 baked salmon and veggies (f)
 Ingredients: salmon, paprika, carrot, potato, onion,
+
+Saturday: 
+kjøttboller (m)
+Ingredients: kjøttboller, fløtesaus, tyttebær, 
+
+Sunday: 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
 
