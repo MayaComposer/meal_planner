@@ -9,7 +9,7 @@ def read_data(file_path: str) -> pd.DataFrame:
     return df
 
 def sort_recipes(df: pd.DataFrame):
-    current_season = 'winter'
+    current_season = 'winter' #season filter
     week = datetime.datetime.now().isocalendar()[1]
     if week >= 40 or week <= 14:
         current_season = 'winter'
