@@ -16,21 +16,6 @@ def write_to_file(text: str, file_path: str = "output.txt") -> None:
     with open(file_path, "w") as file:
         file.write(text)
 
-# def configure_shopping_list(meals) -> str:
-#     shopping_list = []
-#     shopping_list_string = ''
-
-#     for count, meal in enumerate(meals):
-#         shopping_list_string += f'{days[count]} \n {meal.ingredients},{meal.fresh_ingredients},'
-
-#     shopping_list_string = shopping_list_string.replace(' ', '')
-#     shopping_list = shopping_list_string.split(',')
-#     shopping_list = list(filter(None, shopping_list))
-
-#     shopping_list = remove_duplicates(shopping_list)
-#     shopping_list_text = shopping_list_to_text(shopping_list)
-#     return shopping_list_text
-
 def shopping_list_to_string(meals) -> str:
     shopping_list = []
     for meal in meals:

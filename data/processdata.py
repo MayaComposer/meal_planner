@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import random
+import datetime
 
 def read_data(file_path: str) -> pd.DataFrame:
     file = pd.ExcelFile(file_path)
@@ -8,14 +9,23 @@ def read_data(file_path: str) -> pd.DataFrame:
     return df
 
 def sort_recipes(df: pd.DataFrame):
+    current_season = 'winter'
+    week = datetime.datetime.now().isocalendar()[1]
+    if week >= 40 or week <= 14:
+        current_season = 'winter'
+    else:
+        current_season = 'summer'
+    print('current season: ' + current_season)
+
     fish_recipes, meat_recipes, veg_recipes = [], [], []
     for row in df.itertuples():
-        if row.category == 'f':
-            fish_recipes.append(row)
-        elif row.category == 'm':
-            meat_recipes.append(row)
-        elif row.category == 'v':
-            veg_recipes.append(row)
+        if row.season == current_season or 'both':
+            if row.category == 'f':
+                fish_recipes.append(row)
+            elif row.category == 'm':
+                meat_recipes.append(row)
+            elif row.category == 'v':
+                veg_recipes.append(row)
     return fish_recipes, meat_recipes, veg_recipes
 
 def generate_mealplan(fish_recipes, meat_recipes, veg_recipes) -> list:

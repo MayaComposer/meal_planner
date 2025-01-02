@@ -2,9 +2,14 @@
 #2. pick 1 meat recipe✅
 #3. pick 4 vegetarian recipes✅
 #4. add it to a list✅
-#5. check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
-#6 convert from excel to JSON or python dictionary 
-        dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. 
-#get current week and add it to output✅
 
-# - remove - from days in shopping list
+- get current week and add it to output✅
+
+- remove - from days in shopping list✅
+
+- add filter for season. Check for current season, and only pick recipes for current season (summer or winter) ✅
+
+
+- convert from excel to JSON or python dictionary. Dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. 
+
+- check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.

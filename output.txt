@@ -1,59 +1,29 @@
 Week 1
 Monday: 
-fish with fries (f)
-Ingredients: fish, fries, 
+couscous with stew (v)
+Ingredients: couscous,  aubergine,
 
 Tuesday: 
-pasta (v)
-Ingredients: pasta, 
+chicken mango chutney rice (m)
+Ingredients: mango_chutney, rice, 
 
 Wednesday: 
-paella (f)
-Ingredients: rice, fish, veg, 
-
-Thursday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
-
-Friday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
-
-Saturday: 
 burgers (v)
 Ingredients: burgers, fries, 
 
+Thursday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
+Friday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+
+Saturday: 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
+
 Sunday: 
-kj�ttboller (m)
-Ingredients: kj�ttboller, fl�tesaus, tytteb�r, 
+baked salmon and veggies (f)
+Ingredients: salmon, paprika, carrot, potato, onion,
 
-
- Monday 
-- fish 
-- fries 
-
- Tuesday 
-- pasta 
-
- Wednesday 
-- rice 
-- fish 
-- veg 
-
- Thursday 
-- noodles 
-- carrot 
-- spring_onion 
-
- Friday 
-- canned_tomato 
-- beans 
-
- Saturday 
-- burgers 
-- fries 
-
- Sunday 
-- kj�ttboller 
-- fl�tesaus 
-- tytteb�r 
