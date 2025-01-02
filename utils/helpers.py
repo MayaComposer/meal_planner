@@ -37,6 +37,7 @@ def shopping_list_to_string(meals) -> str:
         all_ingredients = meal.ingredients + meal.fresh_ingredients
         ingredients = all_ingredients.replace(' ', '')
         ingredients = ingredients.split(',')
+        ingredients.remove('')
         shopping_list.append(list(ingredients))
     print(shopping_list)
 

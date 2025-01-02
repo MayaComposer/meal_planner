@@ -1,65 +1,59 @@
 Week 1
 Monday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrot, 
-
-Tuesday: 
 fish with fries (f)
 Ingredients: fish, fries, 
 
-Wednesday: 
-burgers (v)
-Ingredients: burgers, fries, 
-
-Thursday: 
-couscous with stew (v)
-Ingredients: couscous,  aubergine,
-
-Friday: 
-pie (v)
-Ingredients: flour, egg, milk, 
-
-Saturday: 
+Tuesday: 
 pasta (v)
 Ingredients: pasta, 
 
+Wednesday: 
+paella (f)
+Ingredients: rice, fish, veg, 
+
+Thursday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+
+Friday: 
+nachos (v)
+Ingredients: canned_tomato, beans, 
+
+Saturday: 
+burgers (v)
+Ingredients: burgers, fries, 
+
 Sunday: 
-stamppot (m)
-Ingredients: milk,  potato,
+kj�ttboller (m)
+Ingredients: kj�ttboller, fl�tesaus, tytteb�r, 
 
 
  Monday 
-- fiskeboller 
-- potato 
-- carrot 
--  
-
- Tuesday 
 - fish 
 - fries 
--  
+
+ Tuesday 
+- pasta 
 
  Wednesday 
-- burgers 
-- fries 
--  
+- rice 
+- fish 
+- veg 
 
  Thursday 
-- couscous 
-- aubergine 
--  
+- noodles 
+- carrot 
+- spring_onion 
 
  Friday 
-- flour 
-- egg 
-- milk 
--  
+- canned_tomato 
+- beans 
 
  Saturday 
-- pasta 
--  
+- burgers 
+- fries 
 
  Sunday 
-- milk 
-- potato 
--  
+- kj�ttboller 
+- fl�tesaus 
+- tytteb�r 
