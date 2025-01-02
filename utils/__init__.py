@@ -1,1 +1,1 @@
-from .helpers import remove_duplicates, shopping_list_to_text, write_to_file, configure_shopping_list, configure_mealplan_text
+from .helpers import remove_duplicates, shopping_list_to_text, write_to_file, shopping_list_to_string, configure_mealplan_text

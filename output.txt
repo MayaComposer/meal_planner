@@ -1,45 +1,65 @@
+Week 1
 Monday: 
-paella (f)
-Ingredients: rice, fish, veg, 
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrot, 
 
 Tuesday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
+fish with fries (f)
+Ingredients: fish, fries, 
 
 Wednesday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
+burgers (v)
+Ingredients: burgers, fries, 
 
 Thursday: 
-chicken mango chutney rice (m)
-Ingredients: mango_chutney, rice, 
-
-Friday: 
 couscous with stew (v)
 Ingredients: couscous,  aubergine,
 
-Saturday: 
-curry (v)
-Ingredients: rice, coconut milk, carrot,
+Friday: 
+pie (v)
+Ingredients: flour, egg, milk, 
 
-Sunday: 
+Saturday: 
 pasta (v)
 Ingredients: pasta, 
 
-Shopping list: 
-- rice
-- fish
-- veg
-- miso
-- dashi
-- noodles
-- salmon
-- paprika
-- carrot
-- potato
-- onion
-- mango_chutney
-- couscous
-- aubergine
-- coconutmilk
-- pasta
+Sunday: 
+stamppot (m)
+Ingredients: milk,  potato,
+
+
+ Monday 
+- fiskeboller 
+- potato 
+- carrot 
+-  
+
+ Tuesday 
+- fish 
+- fries 
+-  
+
+ Wednesday 
+- burgers 
+- fries 
+-  
+
+ Thursday 
+- couscous 
+- aubergine 
+-  
+
+ Friday 
+- flour 
+- egg 
+- milk 
+-  
+
+ Saturday 
+- pasta 
+-  
+
+ Sunday 
+- milk 
+- potato 
+-  

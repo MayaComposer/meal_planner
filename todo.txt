@@ -5,3 +5,6 @@
 #5. check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
 #6 convert from excel to JSON or python dictionary 
         dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. 
+#get current week and add it to output✅
+
+# - remove - from days in shopping list

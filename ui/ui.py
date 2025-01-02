@@ -1,6 +1,6 @@
 import customtkinter as ctk
 from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe
-from utils.helpers import configure_shopping_list, configure_mealplan_text, write_to_file
+from utils.helpers import shopping_list_to_string, configure_mealplan_text, write_to_file
 
 class MealPlannerApp(ctk.CTk):
     def __init__(self):
@@ -40,7 +40,7 @@ class MealPlannerApp(ctk.CTk):
         mealplan_text = configure_mealplan_text(meals)
         self.mealplan_label.configure(text=mealplan_text)
 
-        shopping_list_text = configure_shopping_list(meals)
+        shopping_list_text = shopping_list_to_string(meals)
         write_to_file(mealplan_text + shopping_list_text)
 
     def pressed_add_recipe(self):
