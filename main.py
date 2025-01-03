@@ -1,4 +1,4 @@
-from ui.ui import MealPlannerApp
+from ui_ctk.ui import MealPlannerApp
 
 def main():
     app = MealPlannerApp()

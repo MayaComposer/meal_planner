@@ -14,4 +14,6 @@
 
 - check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
 
-- try to get a kivy sketch working
+- make 'add recipe function' 
+
+- try to get a kivy sketch working✅

@@ -1,0 +1,42 @@
+<Screen>:
+    canvas:
+        Color:
+            rgba: 1, 1, 1, 1  # Set the background color to white
+        Rectangle:
+            size: self.size
+
+<MainWindow>:
+    GridLayout:
+        rows: 2
+        cols: 1
+        spacing: 0
+        padding: 0
+
+        Label:
+            text: ''
+            id: mealplan_label
+            size_hint_x: 0.8
+            padding: 20, 0
+            size_hint_y: 0.8
+            height: 50  # Height of the label
+            color: 0, 0, 0, 1  # Set the text color to black
+            text_size: root.width, None
+            size: self.texture_size
+            halign: 'center'
+            valign: 'middle'
+
+        GridLayout:
+            rows: 1
+            cols: 3
+            size_hint_y: None
+            height: 50  # Height of the button row
+
+            Button:
+                text: 'Add recipe'
+                on_press: root.pressed_add_recipe()
+            Button:
+                text: 'New meal plan'
+                on_press: root.display_mealplan()
+            Button:
+                text: 'Quit'
+                on_press: root.quit_app()
