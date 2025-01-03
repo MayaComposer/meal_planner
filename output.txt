@@ -1,60 +1,60 @@
 Week 1
 Monday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
 
 Tuesday: 
+fish with fries (f)
+Ingredients: fish, fries, 
+
+Wednesday: 
 paella (f)
 Ingredients: rice, fish, veg, 
 
-Wednesday: 
-fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
-
 Thursday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
+couscous with stew (v)
+Ingredients: couscous,  aubergine,
 
 Friday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
+chicken_wings (m)
+Ingredients: chicken_wings, 
 
 Saturday: 
-burgers (v)
-Ingredients: burgers, fries, 
-
-Sunday: 
 stir fry noodles (v)
 Ingredients: noodles, carrot, spring_onion,
 
+Sunday: 
+pie (v)
+Ingredients: flour, egg, milk, 
+
 
  Monday 
-- chicken_wings 
+- rice 
+- coconutmilk 
+- carrot 
 
  Tuesday 
+- fish 
+- fries 
+
+ Wednesday 
 - rice 
 - fish 
 - veg 
 
- Wednesday 
-- pineapple 
-- carrot 
-- potato 
-
  Thursday 
-- miso 
-- dashi 
-- noodles 
+- couscous 
+- aubergine 
 
  Friday 
-- canned_tomato 
-- beans 
+- chicken_wings 
 
  Saturday 
-- burgers 
-- fries 
-
- Sunday 
 - noodles 
 - carrot 
 - spring_onion 
+
+ Sunday 
+- flour 
+- egg 
+- milk 
