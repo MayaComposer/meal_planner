@@ -1,60 +1,58 @@
 Week 1
 Monday: 
-curry (v)
-Ingredients: rice, coconut milk, carrot,
-
-Tuesday: 
 fish with fries (f)
 Ingredients: fish, fries, 
 
-Wednesday: 
-paella (f)
-Ingredients: rice, fish, veg, 
-
-Thursday: 
-couscous with stew (v)
-Ingredients: couscous,  aubergine,
-
-Friday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
-
-Saturday: 
+Tuesday: 
 stir fry noodles (v)
 Ingredients: noodles, carrot, spring_onion,
 
+Wednesday: 
+nachos (v)
+Ingredients: canned_tomato, beans, 
+
+Thursday: 
+pasta (v)
+Ingredients: pasta, 
+
+Friday: 
+stamppot (m)
+Ingredients: milk,  potato,
+
+Saturday: 
+couscous with stew (v)
+Ingredients: couscous,  aubergine,
+
 Sunday: 
-pie (v)
-Ingredients: flour, egg, milk, 
+paella (f)
+Ingredients: rice, fish, veg, 
 
 
  Monday 
-- rice 
-- coconutmilk 
-- carrot 
-
- Tuesday 
 - fish 
 - fries 
 
- Wednesday 
-- rice 
-- fish 
-- veg 
-
- Thursday 
-- couscous 
-- aubergine 
-
- Friday 
-- chicken_wings 
-
- Saturday 
+ Tuesday 
 - noodles 
 - carrot 
 - spring_onion 
 
- Sunday 
-- flour 
-- egg 
+ Wednesday 
+- canned_tomato 
+- beans 
+
+ Thursday 
+- pasta 
+
+ Friday 
 - milk 
+- potato 
+
+ Saturday 
+- couscous 
+- aubergine 
+
+ Sunday 
+- rice 
+- fish 
+- veg 
