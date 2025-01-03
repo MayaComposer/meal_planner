@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe
+from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe, save_data
 from utils.helpers import shopping_list_to_string, configure_mealplan_text, write_to_file
 
 class MealPlannerApp(ctk.CTk):
@@ -23,7 +23,7 @@ class MealPlannerApp(ctk.CTk):
         self.add_recipe_button = ctk.CTkButton(self, text="Add new recipe", command=self.pressed_add_recipe, fg_color='teal', text_color='white')
         self.add_recipe_button.grid(row=2, column=0, padx=5, pady=0, sticky="ew")
 
-        self.quit_button = ctk.CTkButton(self, text='quit', command=self.quit, fg_color='teal', text_color='white')
+        self.quit_button = ctk.CTkButton(self, text='quit', command=self.quit_app, fg_color='teal', text_color='white')
         self.quit_button.grid(row=2, column=2, padx=5, pady=0, sticky="ew")
 
         self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -46,6 +46,11 @@ class MealPlannerApp(ctk.CTk):
     def pressed_add_recipe(self):
         self.df = add_recipe(self.df)
         self.fish_recipes, self.meat_recipes, self.veg_recipes = sort_recipes(self.df)
+    def quit_app(self) -> None: 
+
+        save_data(self.df)
+
+        self.quit()
 
 def main():
     app = MealPlannerApp()

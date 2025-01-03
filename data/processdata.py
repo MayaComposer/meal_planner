@@ -4,9 +4,13 @@ import random
 import datetime
 
 def read_data() -> pd.DataFrame:
-    file = pd.ExcelFile('./data/meals.xlsx')
-    df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
+    # file = pd.ExcelFile('./data/meals.xlsx')
+    # df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
+    df = pd.read_json('./data/data.json', orient='index')
     return df
+def save_data(df: pd.DataFrame) -> None:
+    df.to_json('./data/data.json', orient='index', indent=4)
+
 
 def sort_recipes(df: pd.DataFrame):
     current_season = 'winter' #season filter
@@ -41,7 +45,7 @@ def generate_mealplan(fish_recipes, meat_recipes, veg_recipes) -> list:
     np.random.shuffle(meals)
     return meals
 
-def add_recipe(df: pd.DataFrame, recipe=pd.DataFrame([['TEST_INGREDIENTS', 'v', 'TEST_FRESH_INGREDIENTS', '']], columns=['ingredients', 'category', 'fresh_ingredients', 'instructions'], index=['ADDED_RECIPE'])) -> pd.DataFrame:
+def add_recipe(df: pd.DataFrame, recipe=pd.DataFrame([['TEST_INGREDIENTS', 'v', 'TEST_FRESH_INGREDIENTS', '', 'both']], columns=['ingredients', 'category', 'fresh_ingredients', 'instructions', 'season'], index=['ADDED_RECIPE'])) -> pd.DataFrame:
     print('recipe added')
     return pd.concat([df, recipe])
 
