@@ -3,8 +3,8 @@ import pandas as pd
 import random
 import datetime
 
-def read_data(file_path: str) -> pd.DataFrame:
-    file = pd.ExcelFile(file_path)
+def read_data() -> pd.DataFrame:
+    file = pd.ExcelFile('./data/meals.xlsx')
     df = pd.read_excel(file, index_col=0, header=0, keep_default_na=False)
     return df
 
@@ -15,7 +15,7 @@ def sort_recipes(df: pd.DataFrame):
         current_season = 'winter'
     else:
         current_season = 'summer'
-    print('current season: ' + current_season)
+    #print('current season: ' + current_season)
 
     fish_recipes, meat_recipes, veg_recipes = [], [], []
     for row in df.itertuples():
@@ -46,21 +46,21 @@ def add_recipe(df: pd.DataFrame, recipe=pd.DataFrame([['TEST_INGREDIENTS', 'v', 
     return pd.concat([df, recipe])
 
 def main():
-    print('mealplan stuff')
+    print('TESTING processdata.py')
     from utils.helpers import configure_mealplan_text, write_to_file
-    df = read_data('data/meals.xlsx')
+    df = read_data()
     fish_recipes, meat_recipes, veg_recipes = sort_recipes(df)
     meals = generate_mealplan(fish_recipes, meat_recipes, veg_recipes)
     mealplan_text = configure_mealplan_text(meals)
     write_to_file(mealplan_text)
 
-    meal_dict = df.to_dict('index')
+    meals = df.to_json('data.json', orient='index')
 
-    dataframe = pd.DataFrame(meal_dict)
-    print(dataframe.loc['category'])
+    mealstwo = pd.read_json('data.json', orient='index')
 
-    with open("dict.txt", "w") as file:
-        file.write(str(dataframe))
+    print(mealstwo.loc['curry'])
+
+        
         
 if __name__ == "__main__":
     main()

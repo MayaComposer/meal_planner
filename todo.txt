@@ -10,7 +10,7 @@
 - add filter for season. Check for current season, and only pick recipes for current season (summer or winter) ✅
 
 
-- convert from excel to JSON or python dictionary. Dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. 
+- convert from excel to JSON or python dictionary. Dictionary probs works easiest. Use spreadsheet as a base because it is easy to format. or pd dataframe
 
 - check list to see if there is overlap between fresh ingredients, if so, make sure those recipes are right after each other.
 

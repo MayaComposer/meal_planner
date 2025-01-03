@@ -1,29 +1,29 @@
 Week 1
 Monday: 
+curry (v)
+Ingredients: rice, coconut milk, carrot,
+
+Tuesday: 
+paella (f)
+Ingredients: rice, fish, veg, 
+
+Wednesday: 
+nachos (v)
+Ingredients: canned_tomato, beans, 
+
+Thursday: 
 pie (v)
 Ingredients: flour, egg, milk, 
 
-Tuesday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
+Friday: 
+pasta (v)
+Ingredients: pasta, 
 
-Wednesday: 
+Saturday: 
 fiskegrateng (f)
 Ingredients: pineapple, carrot, potato,
 
-Thursday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
-
-Friday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
-
-Saturday: 
-kjøttboller (m)
-Ingredients: kjøttboller, fløtesaus, tyttebær, 
-
 Sunday: 
-curry (v)
-Ingredients: rice, coconut milk, carrot,
+chicken_wings (m)
+Ingredients: chicken_wings, 
 

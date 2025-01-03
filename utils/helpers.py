@@ -51,7 +51,7 @@ def configure_mealplan_text(meals):
 
 def main() -> None:
     from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe
-    df = read_data('data/meals.xlsx')
+    df = read_data()
     fish_recipes, meat_recipes, veg_recipes = sort_recipes(df)
     meals = generate_mealplan(fish_recipes, meat_recipes, veg_recipes)
     mealplan_text = configure_mealplan_text(meals)

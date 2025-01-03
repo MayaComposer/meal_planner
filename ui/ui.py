@@ -27,7 +27,7 @@ class MealPlannerApp(ctk.CTk):
         self.quit_button.grid(row=2, column=2, padx=5, pady=0, sticky="ew")
 
         self.days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
-        self.df = read_data('./data/meals.xlsx')
+        self.df = read_data()
         self.fish_recipes, self.meat_recipes, self.veg_recipes = sort_recipes(self.df)
         self.shopping_list_string = ''
         self.shopping_list = []

@@ -1,8 +1,0 @@
-                          baked salmon and veggies          burgers                 chicken cheese wraps  ... stamppot       stir fry noodles   gnocchi
-ingredients                                salmon,  burgers, fries,  chicken, cheese, wraps, taco herbs,  ...   milk,                noodles,    gnocci
-category                                         f                v                                    m  ...        m                      v          
-fresh_ingredients  paprika, carrot, potato, onion,                                                        ...  potato,  carrot, spring_onion,  veggies,
-instructions                                                                                              ...                                          
-season                                        both             both                                 both  ...   winter                   both      both
-
-[5 rows x 19 columns]
