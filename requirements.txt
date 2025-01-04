@@ -2,3 +2,4 @@ kivy
 pandas
 # Add other dependencies here
 ctk
+kivymd

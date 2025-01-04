@@ -131,5 +131,12 @@
         "fresh_ingredients":"veggies,",
         "instructions":"",
         "season":"both"
+    },
+    "ADDED_RECIPE":{
+        "ingredients":"TEST_INGREDIENTS",
+        "category":"v",
+        "fresh_ingredients":"TEST_FRESH_INGREDIENTS",
+        "instructions":"",
+        "season":"both"
     }
 }

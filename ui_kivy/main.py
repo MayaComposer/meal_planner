@@ -1,15 +1,12 @@
-import kivy
-
-from kivy.uix.floatlayout import FloatLayout
-from kivy.app import App
-from kivy.properties import ObjectProperty, StringProperty
+from kivymd.app import MDApp
+from kivymd.uix.screen import MDScreen
+from kivymd.uix.screenmanager import ScreenManager
 from kivy.core.window import Window
-from kivy.uix.screenmanager import Screen, ScreenManager
 
 from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe, save_data
 from utils.helpers import shopping_list_to_string, configure_mealplan_text, write_to_file
 
-class MainWindow(Screen):
+class MainWindow(MDScreen):
 
     df = read_data()
     fish_recipes, meat_recipes, veg_recipes = sort_recipes(df)
@@ -34,14 +31,14 @@ class MainWindow(Screen):
         self.fish_recipes, self.meat_recipes, self.veg_recipes = sort_recipes(self.df)
 
     def quit_app(self) -> None: 
-
         save_data(self.df)
-
         quit()
 
-class MealplannerApp(App):
+class MealplannerApp(MDApp):
     def build(self):
         Window.size = (360, 640)
+        self.theme_cls.theme_style = "Light"
+        self.theme_cls.primary_palette = "Olive"  # "Purple", "Red"
         root = ScreenManager()
         root.add_widget(MainWindow(name='main'))
         return root
@@ -49,7 +46,6 @@ class MealplannerApp(App):
     def on_start(self):
         main_screen = self.root.get_screen('main') # type: ignore
         main_screen.display_mealplan()
-
 
 if __name__ == '__main__':
     MealplannerApp().run()
