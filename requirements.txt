@@ -3,3 +3,4 @@ pandas
 # Add other dependencies here
 customtkinter
 kivymd
+briefcase
