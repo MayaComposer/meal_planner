@@ -25,7 +25,6 @@ def shopping_list_to_string(meals) -> str:
         if '' in ingredients:
             ingredients.remove('')
         shopping_list.append(list(ingredients))
-    print(shopping_list)
 
     shopping_list_string = ''
     #for each set of ingredients in shopping_list
@@ -41,7 +40,7 @@ def configure_mealplan_text(meals):
     
     # date.isocalendar() 
     # Return a named tuple object with three components: year, week and weekday.
-    week = 'Week ' + str(datetime.datetime.now().isocalendar()[1])
+    week = 'Week ' + str(datetime.datetime.now().isocalendar()[1] + 1)
     mealplan_text: str = ''
     mealplan_text += week
     mealplan_text += '\n'

@@ -16,4 +16,8 @@
 
 - make 'add recipe function' 
 
-- try to get a kivy sketch working✅
+- view recipes inside app option
+
+- try to get a kivy sketch working✅ NOT WORTH it
+
+- Try beeware instead

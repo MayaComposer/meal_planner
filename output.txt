@@ -1,62 +1,62 @@
-Week 1
+Week 2
 Monday: 
-stir fry noodles (v)
-Ingredients: noodles, carrot, spring_onion,
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
 
 Tuesday: 
-burgers (v)
-Ingredients: burgers, fries, 
+fish with fries (f)
+Ingredients: fish, fries, 
 
 Wednesday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
+pasta (v)
+Ingredients: pasta, 
 
 Thursday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
+chicken cheese wraps (m)
+Ingredients: chicken, cheese, wraps, taco herbs, 
 
 Friday: 
-pie (v)
-Ingredients: flour, egg, milk, 
-
-Saturday: 
-paella (f)
-Ingredients: rice, fish, veg, 
-
-Sunday: 
 nachos (v)
 Ingredients: canned_tomato, beans, 
 
+Saturday: 
+baked salmon and veggies (f)
+Ingredients: salmon, paprika, carrot, potato, onion,
+
+Sunday: 
+couscous with stew (v)
+Ingredients: couscous,  aubergine,
+
 
  Monday 
+- miso 
+- dashi 
 - noodles 
-- carrot 
-- spring_onion 
 
  Tuesday 
-- burgers 
+- fish 
 - fries 
 
  Wednesday 
-- chicken_wings 
+- pasta 
 
  Thursday 
+- chicken 
+- cheese 
+- wraps 
+- tacoherbs 
+
+ Friday 
+- canned_tomato 
+- beans 
+
+ Saturday 
 - salmon 
 - paprika 
 - carrot 
 - potato 
 - onion 
 
- Friday 
-- flour 
-- egg 
-- milk 
-
- Saturday 
-- rice 
-- fish 
-- veg 
-
  Sunday 
-- canned_tomato 
-- beans 
+- couscous 
+- aubergine 

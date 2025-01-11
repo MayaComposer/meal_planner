@@ -1,6 +1,8 @@
 <MainWindow>:
-    md_bg_color: self.theme_cls.backgroundColor
+    md_bg_color: 'white'  # App background color set to white
     MDBoxLayout:
+        theme_width: "Custom"
+        theme_height: "Custom"
         orientation: 'vertical'
 
         MDLabel:
@@ -9,26 +11,47 @@
             theme_text_color: "Primary"
             halign: 'center'
             valign: 'middle'
-
+            theme_width: "Custom"
+            theme_height: "Custom"
+            adaptive_height: True
+            size_hint_y: 0.9  # Adjusted size_hint_y to occupy more space
         MDBoxLayout:
             orientation: 'horizontal'
-            
+            md_bg_color: 'white'  # Ensure the button container background is white
+            size_hint_y: 0.1
+            padding: 10, 10, 10, 10
 
             MDButton:
-                style: 'elevated'
-                size_hint_x: 1
+                style: 'filled'
                 on_release: root.pressed_add_recipe()
+                pos_hint: {"center_x": 0.1, "center_y": 0.4}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                size_hint_x: .5
+                size_hint_y: 1
+                theme_shadow_color: "Custom"
+                shadow_color: "black"
                 MDButtonText:
                     text: 'Add recipe'
             MDButton:
-                style: 'elevated'
-                size_hint_x: 1
+                style: 'filled'
                 on_release: root.display_mealplan()
+                pos_hint: {"center_x": 0.5, "center_y": 0.4}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                size_hint_x: .5
+                size_hint_y: 1
                 MDButtonText:
                     text: 'New meal plan'
             MDButton:
-                style: 'elevated'
-                size_hint_x: 1
+                style: 'filled'
                 on_release: root.quit_app()
+                pos_hint: {"center_x": 0.9, "center_y": 0.4}
+                theme_width: "Custom"
+                theme_height: "Custom"
+                height: "56dp"
+                size_hint_x: .5
+                size_hint_y: 1
                 MDButtonText:
                     text: 'Quit'

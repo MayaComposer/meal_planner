@@ -37,8 +37,6 @@ class MainWindow(MDScreen):
 class MealplannerApp(MDApp):
     def build(self):
         Window.size = (360, 640)
-        self.theme_cls.theme_style = "Light"
-        self.theme_cls.primary_palette = "Olive"  # "Purple", "Red"
         root = ScreenManager()
         root.add_widget(MainWindow(name='main'))
         return root

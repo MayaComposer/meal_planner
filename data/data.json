@@ -1,142 +1,128 @@
 {
-    "baked salmon and veggies":{
-        "ingredients":"salmon,",
-        "category":"f",
-        "fresh_ingredients":"paprika, carrot, potato, onion,",
-        "instructions":"",
-        "season":"both"
-    },
-    "burgers":{
-        "ingredients":"burgers, fries,",
-        "category":"v",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "chicken cheese wraps":{
-        "ingredients":"chicken, cheese, wraps, taco herbs,",
-        "category":"m",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "chicken mango chutney rice":{
-        "ingredients":"mango_chutney, rice,",
-        "category":"m",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "chicken_wings":{
-        "ingredients":"chicken_wings,",
-        "category":"m",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "couscous with stew":{
-        "ingredients":"couscous, ",
-        "category":"v",
-        "fresh_ingredients":"aubergine,",
-        "instructions":"",
-        "season":"winter"
-    },
-    "curry":{
-        "ingredients":"rice, coconut milk,",
-        "category":"v",
-        "fresh_ingredients":"carrot,",
-        "instructions":"",
-        "season":"both"
-    },
-    "fish with fries":{
-        "ingredients":"fish, fries,",
-        "category":"f",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "fiskeboller":{
-        "ingredients":"fiskeboller, potato, carrot,",
-        "category":"f",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"winter"
-    },
-    "fiskegrateng":{
-        "ingredients":"pineapple,",
-        "category":"f",
-        "fresh_ingredients":"carrot, potato,",
-        "instructions":"",
-        "season":"winter"
-    },
-    "kj\u00f8ttboller":{
-        "ingredients":"kj\u00f8ttboller, fl\u00f8tesaus, tytteb\u00e6r,",
-        "category":"m",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"winter"
-    },
-    "miso soup":{
-        "ingredients":"miso, dashi, noodles,",
-        "category":"v",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "nachos":{
-        "ingredients":"canned_tomato, beans,",
-        "category":"v",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"both"
-    },
-    "paella":{
-        "ingredients":"rice, fish, veg,",
-        "category":"f",
-        "fresh_ingredients":"",
-        "instructions":"",
-        "season":"summer"
-    },
-    "pasta":{
-        "ingredients":"pasta,",
-        "category":"v",
-        "fresh_ingredients":"",
-        "instructions":"add anything that is leftover",
-        "season":"both"
-    },
-    "pie":{
-        "ingredients":"flour, egg, milk,",
-        "category":"v",
-        "fresh_ingredients":"",
-        "instructions":"leftovers",
-        "season":"both"
-    },
-    "stamppot":{
-        "ingredients":"milk, ",
-        "category":"m",
-        "fresh_ingredients":"potato,",
-        "instructions":"",
-        "season":"winter"
-    },
-    "stir fry noodles":{
-        "ingredients":"noodles,",
-        "category":"v",
-        "fresh_ingredients":"carrot, spring_onion,",
-        "instructions":"",
-        "season":"both"
-    },
-    "gnocchi":{
-        "ingredients":"gnocci",
-        "category":"",
-        "fresh_ingredients":"veggies,",
-        "instructions":"",
-        "season":"both"
-    },
-    "ADDED_RECIPE":{
-        "ingredients":"TEST_INGREDIENTS",
-        "category":"v",
-        "fresh_ingredients":"TEST_FRESH_INGREDIENTS",
-        "instructions":"",
-        "season":"both"
-    }
+  "baked salmon and veggies": {
+    "ingredients": "salmon,",
+    "category": "f",
+    "fresh_ingredients": "paprika, carrot, potato, onion,",
+    "instructions": "",
+    "season": "both"
+  },
+  "burgers": {
+    "ingredients": "burgers, fries,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "chicken cheese wraps": {
+    "ingredients": "chicken, cheese, wraps, taco herbs,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "chicken_wings": {
+    "ingredients": "chicken_wings,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "couscous with stew": {
+    "ingredients": "couscous, ",
+    "category": "v",
+    "fresh_ingredients": "aubergine,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "curry": {
+    "ingredients": "rice, coconut milk,",
+    "category": "v",
+    "fresh_ingredients": "carrot,",
+    "instructions": "",
+    "season": "both"
+  },
+  "fish with fries": {
+    "ingredients": "fish, fries,",
+    "category": "f",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "fiskeboller": {
+    "ingredients": "fiskeboller, potato, carrot,",
+    "category": "f",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "winter"
+  },
+  "fiskegrateng": {
+    "ingredients": "pineapple,",
+    "category": "f",
+    "fresh_ingredients": "carrot, potato,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "kj\u00f8ttboller": {
+    "ingredients": "kj\u00f8ttboller, fl\u00f8tesaus, tytteb\u00e6r,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "winter"
+  },
+  "miso soup": {
+    "ingredients": "miso, dashi, noodles,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "nachos": {
+    "ingredients": "canned_tomato, beans,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "paella": {
+    "ingredients": "rice, fish, veg,",
+    "category": "f",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "summer"
+  },
+  "pasta": {
+    "ingredients": "pasta,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "add anything that is leftover",
+    "season": "both"
+  },
+  "pie": {
+    "ingredients": "flour, egg, milk,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "leftovers",
+    "season": "both"
+  },
+  "stamppot": {
+    "ingredients": "milk, ",
+    "category": "m",
+    "fresh_ingredients": "potato,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "stir fry noodles": {
+    "ingredients": "noodles,",
+    "category": "v",
+    "fresh_ingredients": "carrot, spring_onion,",
+    "instructions": "",
+    "season": "both"
+  },
+  "gnocchi": {
+    "ingredients": "gnocci",
+    "category": "",
+    "fresh_ingredients": "veggies,",
+    "instructions": "",
+    "season": "both"
+  }
 }
