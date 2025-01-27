@@ -40,6 +40,7 @@ def configure_mealplan_text(meals):
     
     # date.isocalendar() 
     # Return a named tuple object with three components: year, week and weekday.
+    #add 1 to week because we generate on sunday
     week = 'Week ' + str(datetime.datetime.now().isocalendar()[1] + 1)
     mealplan_text: str = ''
     mealplan_text += week

@@ -1,62 +1,56 @@
-Week 2
+Week 5
 Monday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
+gnocchi
+Ingredients: gnocchi, veggies
 
 Tuesday: 
-fish with fries (f)
-Ingredients: fish, fries, 
+chicken in sweet sour sauce (m)
+Ingredients: rice chicken, sweet_sour_sauce
 
 Wednesday: 
 pasta (v)
 Ingredients: pasta, 
 
 Thursday: 
-chicken cheese wraps (m)
-Ingredients: chicken, cheese, wraps, taco herbs, 
+thai soup (f)
+Ingredients: thai soup shrimp,
 
 Friday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
+pie (v)
+Ingredients: flour, egg, milk, 
 
 Saturday: 
-baked salmon and veggies (f)
-Ingredients: salmon, paprika, carrot, potato, onion,
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
 
 Sunday: 
-couscous with stew (v)
-Ingredients: couscous,  aubergine,
+burgers (v)
+Ingredients: burgers, fries, 
 
 
  Monday 
-- miso 
-- dashi 
-- noodles 
+- gnocchi
 
  Tuesday 
-- fish 
-- fries 
+- ricechicken 
+- sweet_sour_sauce 
 
  Wednesday 
 - pasta 
 
  Thursday 
-- chicken 
-- cheese 
-- wraps 
-- tacoherbs 
+- thaisoupshrimp 
 
  Friday 
-- canned_tomato 
-- beans 
+- flour 
+- egg 
+- milk 
 
  Saturday 
-- salmon 
-- paprika 
-- carrot 
-- potato 
-- onion 
+- miso 
+- dashi 
+- noodles 
 
  Sunday 
-- couscous 
-- aubergine 
+- burgers 
+- fries 

@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import random
 import datetime
+import random
 
 def read_data() -> pd.DataFrame:
     # file = pd.ExcelFile('./data/meals.xlsx')
@@ -23,7 +24,8 @@ def sort_recipes(df: pd.DataFrame):
 
     fish_recipes, meat_recipes, veg_recipes = [], [], []
     for row in df.itertuples():
-        if row.season == current_season or 'both':
+        if row.season == current_season or row.season == 'both':
+            #print(row.season)
             if row.category == 'f':
                 fish_recipes.append(row)
             elif row.category == 'm':
@@ -33,6 +35,7 @@ def sort_recipes(df: pd.DataFrame):
     return fish_recipes, meat_recipes, veg_recipes
 
 def generate_mealplan(fish_recipes, meat_recipes, veg_recipes) -> list:
+    random.seed()
     meals = []
     _fish_recipes = random.sample(fish_recipes, len(fish_recipes))
     _meat_recipes = random.sample(meat_recipes, len(meat_recipes))
