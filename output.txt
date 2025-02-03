@@ -1,56 +1,60 @@
-Week 5
+Week 7
 Monday: 
-gnocchi
-Ingredients: gnocchi, veggies
+fiskeboller (f)
+Ingredients: fiskeboller, potato, carrot, 
 
 Tuesday: 
-chicken in sweet sour sauce (m)
-Ingredients: rice chicken, sweet_sour_sauce
+kjøttboller (m)
+Ingredients: kjøttboller, fløtesaus, tyttebær, 
 
 Wednesday: 
 pasta (v)
 Ingredients: pasta, 
 
 Thursday: 
-thai soup (f)
-Ingredients: thai soup shrimp,
-
-Friday: 
-pie (v)
-Ingredients: flour, egg, milk, 
-
-Saturday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
-
-Sunday: 
 burgers (v)
 Ingredients: burgers, fries, 
 
+Friday: 
+nachos (v)
+Ingredients: canned_tomato, beans, 
+
+Saturday: 
+white fish with onion (f)
+Ingredients: white fish, potatos, onion,
+
+Sunday: 
+Chipotle Black Bean Dump & Bake Casserole (v)
+Ingredients: rice, black beans, paprika, 
+
 
  Monday 
-- gnocchi
+- fiskeboller 
+- potato 
+- carrot 
 
  Tuesday 
-- ricechicken 
-- sweet_sour_sauce 
+- kjøttboller 
+- fløtesaus 
+- tyttebær 
 
  Wednesday 
 - pasta 
 
  Thursday 
-- thaisoupshrimp 
-
- Friday 
-- flour 
-- egg 
-- milk 
-
- Saturday 
-- miso 
-- dashi 
-- noodles 
-
- Sunday 
 - burgers 
 - fries 
+
+ Friday 
+- canned_tomato 
+- beans 
+
+ Saturday 
+- whitefish 
+- potatos 
+- onion 
+
+ Sunday 
+- rice 
+- blackbeans 
+- paprika 
