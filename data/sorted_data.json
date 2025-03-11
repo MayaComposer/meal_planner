@@ -2,14 +2,7 @@
   "thai soup": {
     "ingredients": "thai soup",
     "category": "f",
-    "fresh_ingredients": "shrimp,",
-    "instructions": "",
-    "season": "both"
-  },
-  "baked salmon and veggies": {
-    "ingredients": "salmon,",
-    "category": "f",
-    "fresh_ingredients": "paprika, carrot, potato, onion,",
+    "fresh_ingredients": "shrimp, naan,",
     "instructions": "",
     "season": "both"
   },
@@ -28,9 +21,9 @@
     "season": "both"
   },
   "fiskeboller": {
-    "ingredients": "fiskeboller, potato, carrot,",
+    "ingredients": "fiskeboller,",
     "category": "f",
-    "fresh_ingredients": "",
+    "fresh_ingredients": "potato, carrot,",
     "instructions": "",
     "season": "winter"
   },
@@ -47,6 +40,13 @@
     "fresh_ingredients": "",
     "instructions": "",
     "season": "summer"
+  },
+  "Fish in oven with veggies and potato": {
+    "ingredients": "",
+    "category": "f",
+    "fresh_ingredients": "salmon, paprika, onion, potato",
+    "instructions": "",
+    "season": "both"
   },
   "chicken cheese wraps": {
     "ingredients": "chicken, cheese, wraps, taco herbs,",
@@ -86,7 +86,7 @@
   "couscous salad": {
     "ingredients": "couscous,",
     "category": "v",
-    "fresh_ingredients": ",",
+    "fresh_ingredients": "veggies,",
     "instructions": "",
     "season": "summer"
   },
@@ -105,14 +105,14 @@
     "season": "winter"
   },
   "curry": {
-    "ingredients": "rice, coconut milk,",
+    "ingredients": "rice, coconut milk, curry,",
     "category": "v",
-    "fresh_ingredients": "carrot,",
+    "fresh_ingredients": "",
     "instructions": "",
     "season": "both"
   },
   "gnocchi": {
-    "ingredients": "gnocci",
+    "ingredients": "gnocchi",
     "category": "v",
     "fresh_ingredients": "veggies,",
     "instructions": "",
@@ -126,7 +126,7 @@
     "season": "both"
   },
   "nachos": {
-    "ingredients": "canned_tomato, beans,",
+    "ingredients": "tomato paste, beans, nachos, sour cream, taco herbs, salad,",
     "category": "v",
     "fresh_ingredients": "",
     "instructions": "",
@@ -151,6 +151,13 @@
     "category": "v",
     "fresh_ingredients": "carrot, spring_onion,",
     "instructions": "",
+    "season": "both"
+  },
+  "Chipotle Black Bean Dump & Bake Casserole": {
+    "ingredients": "rice, black beans, paprika,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "https://tinyurl.com/beanchipotle",
     "season": "both"
   }
 }

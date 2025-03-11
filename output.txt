@@ -1,60 +1,67 @@
-Week 7
+Week 11
 Monday: 
-fiskeboller (f)
-Ingredients: fiskeboller, potato, carrot, 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+Instructions: 
 
 Tuesday: 
-kjøttboller (m)
-Ingredients: kjøttboller, fløtesaus, tyttebær, 
-
-Wednesday: 
 pasta (v)
 Ingredients: pasta, 
+Instructions: add anything that is leftover
 
-Thursday: 
+Wednesday: 
 burgers (v)
 Ingredients: burgers, fries, 
+Instructions: 
+
+Thursday: 
+miso soup (v)
+Ingredients: miso, dashi, noodles, 
+Instructions: 
 
 Friday: 
-nachos (v)
-Ingredients: canned_tomato, beans, 
+Fish in oven with veggies and potato (f)
+Ingredients:  salmon, paprika, onion, potato
+Instructions: 
 
 Saturday: 
-white fish with onion (f)
-Ingredients: white fish, potatos, onion,
+fish with fries (f)
+Ingredients: fish, fries, 
+Instructions: 
 
 Sunday: 
-Chipotle Black Bean Dump & Bake Casserole (v)
-Ingredients: rice, black beans, paprika, 
+stamppot (m)
+Ingredients: milk,  potato,
+Instructions: 
 
 
  Monday 
-- fiskeboller 
-- potato 
+- noodles 
 - carrot 
+- spring_onion 
 
  Tuesday 
-- kjøttboller 
-- fløtesaus 
-- tyttebær 
-
- Wednesday 
 - pasta 
 
- Thursday 
+ Wednesday 
 - burgers 
 - fries 
 
+ Thursday 
+- miso 
+- dashi 
+- noodles 
+
  Friday 
-- canned_tomato 
-- beans 
+- salmon 
+- paprika 
+- onion 
+- potato 
 
  Saturday 
-- whitefish 
-- potatos 
-- onion 
+- fish 
+- fries 
 
  Sunday 
-- rice 
-- blackbeans 
-- paprika 
+- milk 
+- potato 

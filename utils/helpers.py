@@ -41,13 +41,25 @@ def configure_mealplan_text(meals):
     # date.isocalendar() 
     # Return a named tuple object with three components: year, week and weekday.
     #add 1 to week because we generate on sunday
-    week = 'Week ' + str(datetime.datetime.now().isocalendar()[1] + 1)
+
+    week = 'Week ' + str(datetime.datetime.now().isocalendar()[1])
+
+    if datetime.datetime.now().isocalendar()[2] == 7:
+        week = 'Week ' + str(datetime.datetime.now().isocalendar()[1] + 1)
+    else:
+        week = 'Week ' + str(datetime.datetime.now().isocalendar()[1])
+    #instead implement:
+    #if day == sunday
+    #week = week + 1
+
+    
     mealplan_text: str = ''
     mealplan_text += week
     mealplan_text += '\n'
     for count, meal in enumerate(meals):
         mealplan_text += f'{days[count]}: \n{meal.Index} ({meal.category})\n'
-        mealplan_text += f'Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n\n'
+        mealplan_text += f'Ingredients: {meal.ingredients} {meal.fresh_ingredients}\n'
+        mealplan_text += f'Instructions: {meal.instructions}\n\n'
     return mealplan_text
 
 def main() -> None:
