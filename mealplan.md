@@ -1,7 +1,7 @@
-Week 12
+Week 13
 Monday: 
-Fish in oven with veggies and potato (f)
-Ingredients:  salmon, paprika, onion, potato
+curry (v)
+Ingredients: rice, coconut milk, curry, 
 Instructions: 
 
 Tuesday: 
@@ -10,8 +10,8 @@ Ingredients: tomato paste, beans, nachos, sour cream, taco herbs, salad,
 Instructions: 
 
 Wednesday: 
-fish with fries (f)
-Ingredients: fish, fries, 
+fiskegrateng (f)
+Ingredients: pineapple, carrot, potato,
 Instructions: 
 
 Thursday: 
@@ -20,26 +20,25 @@ Ingredients: chicken_wings,
 Instructions: 
 
 Friday: 
-pasta (v)
-Ingredients: pasta, 
-Instructions: add anything that is leftover
+Fish in oven with veggies and potato (f)
+Ingredients:  salmon, paprika, onion, potato
+Instructions: 
 
 Saturday: 
+pie (v)
+Ingredients: flour, egg, milk, 
+Instructions: leftovers
+
+Sunday: 
 miso soup (v)
 Ingredients: miso, dashi, noodles, 
 Instructions: 
 
-Sunday: 
-Chipotle Black Bean Dump & Bake Casserole (v)
-Ingredients: rice, black beans, paprika, 
-Instructions: https://tinyurl.com/beanchipotle
-
 
  Monday 
-- salmon 
-- paprika 
-- onion 
-- potato 
+- rice 
+- coconutmilk 
+- curry 
 
  Tuesday 
 - tomatopaste 
@@ -50,21 +49,25 @@ Instructions: https://tinyurl.com/beanchipotle
 - salad 
 
  Wednesday 
-- fish 
-- fries 
+- pineapple 
+- carrot 
+- potato 
 
  Thursday 
 - chicken_wings 
 
  Friday 
-- pasta 
+- salmon 
+- paprika 
+- onion 
+- potato 
 
  Saturday 
+- flour 
+- egg 
+- milk 
+
+ Sunday 
 - miso 
 - dashi 
 - noodles 
-
- Sunday 
-- rice 
-- blackbeans 
-- paprika 

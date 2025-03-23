@@ -12,7 +12,7 @@ def shopping_list_to_text(shopping_list) -> str:
         shopping_list_text += f'- {ingredient}\n'
     return shopping_list_text
 
-def write_to_file(text: str, file_path: str = "output.txt") -> None:
+def write_to_file(text: str, file_path: str = "C:\\Users\\mayaf\\Nextcloud\\Notes\\mealplan\\mealplan.md") -> None:
     with open(file_path, "w") as file:
         file.write(text)
 
