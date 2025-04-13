@@ -1,5 +1,5 @@
 import customtkinter as ctk
-from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe, save_data
+from data.processdata import read_data, sort_recipes, generate_mealplan, add_recipe, save_data, save_mealplan
 from utils.helpers import shopping_list_to_string, configure_mealplan_text, write_to_file
 
 class MealPlannerApp(ctk.CTk):
@@ -31,25 +31,32 @@ class MealPlannerApp(ctk.CTk):
         self.fish_recipes, self.meat_recipes, self.veg_recipes = sort_recipes(self.df)
         self.shopping_list_string = ''
         self.shopping_list = []
+        self.current_mealplan = []  # Store the current meal plan in memory
 
         self.display_mealplan()
 
     def display_mealplan(self):
-        meals = generate_mealplan(self.fish_recipes, self.meat_recipes, self.veg_recipes)
+        """Generate and display a new meal plan, avoiding repeated meals."""
+        self.current_mealplan = generate_mealplan(self.fish_recipes, self.meat_recipes, self.veg_recipes)
 
-        mealplan_text = configure_mealplan_text(meals)
+        # Configure and display the meal plan text
+        mealplan_text = configure_mealplan_text(self.current_mealplan)
         self.mealplan_label.configure(text=mealplan_text)
 
-        shopping_list_text = shopping_list_to_string(meals)
+        # Generate and save the shopping list
+        shopping_list_text = shopping_list_to_string(self.current_mealplan)
         write_to_file(mealplan_text + shopping_list_text)
 
     def pressed_add_recipe(self):
+        """Add a new recipe and update the recipe lists."""
         self.df = add_recipe(self.df)
         self.fish_recipes, self.meat_recipes, self.veg_recipes = sort_recipes(self.df)
-    def quit_app(self) -> None: 
 
+    def quit_app(self) -> None:
+        """Save data and the current meal plan, then quit the application."""
         save_data(self.df)
-
+        if self.current_mealplan:
+            save_mealplan(self.current_mealplan)  # Save the meal plan when quitting
         self.quit()
 
 def main():
