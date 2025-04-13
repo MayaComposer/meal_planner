@@ -1,73 +1,73 @@
-Week 13
+Week 16
 Monday: 
-curry (v)
-Ingredients: rice, coconut milk, curry, 
+chicken_wings (m)
+Ingredients: chicken_wings, fries, veggies,
 Instructions: 
 
 Tuesday: 
-nachos (v)
-Ingredients: tomato paste, beans, nachos, sour cream, taco herbs, salad, 
-Instructions: 
+Chipotle Black Bean Dump & Bake Casserole (v)
+Ingredients: rice, black beans, paprika, 
+Instructions: https://tinyurl.com/beanchipotle
 
 Wednesday: 
-fiskegrateng (f)
-Ingredients: pineapple, carrot, potato,
+thai soup (f)
+Ingredients: thai soup shrimp, naan,
 Instructions: 
 
 Thursday: 
-chicken_wings (m)
-Ingredients: chicken_wings, 
+paella (f)
+Ingredients: rice, fish, veg, onion, peas, fish stock,
 Instructions: 
 
 Friday: 
-Fish in oven with veggies and potato (f)
-Ingredients:  salmon, paprika, onion, potato
-Instructions: 
+pasta (v)
+Ingredients: pasta, 
+Instructions: add anything that is leftover
 
 Saturday: 
-pie (v)
-Ingredients: flour, egg, milk, 
-Instructions: leftovers
+burgers (v)
+Ingredients: burgers, fries, burger buns, salad, onion
+Instructions: 
 
 Sunday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
 Instructions: 
 
 
  Monday 
-- rice 
-- coconutmilk 
-- curry 
+- chicken_wings 
+- fries 
+- veggies 
 
  Tuesday 
-- tomatopaste 
-- beans 
-- nachos 
-- sourcream 
-- tacoherbs 
-- salad 
+- rice 
+- blackbeans 
+- paprika 
 
  Wednesday 
-- pineapple 
-- carrot 
-- potato 
+- thaisoupshrimp 
+- naan 
 
  Thursday 
-- chicken_wings 
+- rice 
+- fish 
+- veg 
+- onion 
+- peas 
+- fishstock 
 
  Friday 
-- salmon 
-- paprika 
-- onion 
-- potato 
+- pasta 
 
  Saturday 
-- flour 
-- egg 
-- milk 
+- burgers 
+- fries 
+- burgerbuns 
+- salad 
+- onion 
 
  Sunday 
-- miso 
-- dashi 
 - noodles 
+- carrot 
+- spring_onion 

@@ -16,7 +16,7 @@
     "fish with fries":{
         "ingredients":"fish, fries,",
         "category":"f",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"veggies,",
         "instructions":"",
         "season":"both"
     },
@@ -28,7 +28,7 @@
         "season":"winter"
     },
     "fiskegrateng":{
-        "ingredients":"pineapple,",
+        "ingredients":"pineapple, fiskeboller,",
         "category":"f",
         "fresh_ingredients":"carrot, potato,",
         "instructions":"",
@@ -37,14 +37,14 @@
     "paella":{
         "ingredients":"rice, fish, veg,",
         "category":"f",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"onion, peas, fish stock,",
         "instructions":"",
         "season":"summer"
     },
     "chicken_wings":{
         "ingredients":"chicken_wings,",
         "category":"m",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"fries, veggies,",
         "instructions":"",
         "season":"both"
     },
@@ -58,42 +58,42 @@
     "stamppot":{
         "ingredients":"milk, ",
         "category":"m",
-        "fresh_ingredients":"potato,",
+        "fresh_ingredients":"potato, carrot\/kale, onion, sausage, bacon,",
         "instructions":"",
         "season":"winter"
     },
     "chicken in sweet sour sauce":{
         "ingredients":"rice",
         "category":"m",
-        "fresh_ingredients":"chicken, sweet_sour_sauce",
+        "fresh_ingredients":"chicken, sweet_sour_sauce,",
         "instructions":"",
         "season":"both"
     },
     "couscous salad":{
         "ingredients":"couscous,",
         "category":"v",
-        "fresh_ingredients":"veggies,",
+        "fresh_ingredients":"veggies, feta",
         "instructions":"",
         "season":"summer"
     },
     "burgers":{
         "ingredients":"burgers, fries,",
         "category":"v",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"burger buns, salad, onion",
         "instructions":"",
         "season":"both"
     },
     "curry":{
         "ingredients":"rice, coconut milk, curry,",
         "category":"v",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"veggies, chickpeas,",
         "instructions":"",
         "season":"both"
     },
     "miso soup":{
         "ingredients":"miso, dashi, noodles,",
         "category":"v",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"soybeans, nori, dumplings,",
         "instructions":"",
         "season":"both"
     },
@@ -114,7 +114,7 @@
     "pie":{
         "ingredients":"flour, egg, milk,",
         "category":"v",
-        "fresh_ingredients":"",
+        "fresh_ingredients":"veggies,",
         "instructions":"leftovers",
         "season":"both"
     },

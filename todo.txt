@@ -18,7 +18,7 @@
 
 - view recipes inside app option
 
-- try to get a kivy sketch working✅ NOT WORTH it
-
 - Try beeware instead
 https://docs.beeware.org/en/latest/tutorial/tutorial-2.html
+
+- add a way to have it remember last week's meals
