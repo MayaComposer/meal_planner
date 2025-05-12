@@ -1,0 +1,163 @@
+{
+  "thai soup": {
+    "ingredients": "thai soup",
+    "category": "f",
+    "fresh_ingredients": "shrimp, naan,",
+    "instructions": "",
+    "season": "both"
+  },
+  "white fish with onion": {
+    "ingredients": "white fish,",
+    "category": "f",
+    "fresh_ingredients": "potatos, onion,",
+    "instructions": "",
+    "season": "both"
+  },
+  "fish with fries": {
+    "ingredients": "fish, fries,",
+    "category": "f",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "fiskeboller": {
+    "ingredients": "fiskeboller,",
+    "category": "f",
+    "fresh_ingredients": "potato, carrot,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "fiskegrateng": {
+    "ingredients": "pineapple,",
+    "category": "f",
+    "fresh_ingredients": "carrot, potato,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "paella": {
+    "ingredients": "rice, fish, veg,",
+    "category": "f",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "summer"
+  },
+  "Fish in oven with veggies and potato": {
+    "ingredients": "",
+    "category": "f",
+    "fresh_ingredients": "salmon, paprika, onion, potato",
+    "instructions": "",
+    "season": "both"
+  },
+  "chicken cheese wraps": {
+    "ingredients": "chicken, cheese, wraps, taco herbs,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "chicken_wings": {
+    "ingredients": "chicken_wings,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "kj\u00f8ttboller": {
+    "ingredients": "kj\u00f8ttboller, fl\u00f8tesaus, tytteb\u00e6r,",
+    "category": "m",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "winter"
+  },
+  "stamppot": {
+    "ingredients": "milk, ",
+    "category": "m",
+    "fresh_ingredients": "potato,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "chicken in sweet sour sauce": {
+    "ingredients": "rice",
+    "category": "m",
+    "fresh_ingredients": "chicken, sweet_sour_sauce",
+    "instructions": "",
+    "season": "both"
+  },
+  "couscous salad": {
+    "ingredients": "couscous,",
+    "category": "v",
+    "fresh_ingredients": "veggies,",
+    "instructions": "",
+    "season": "summer"
+  },
+  "burgers": {
+    "ingredients": "burgers, fries,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "curry massala with couscous and grilled aubergine": {
+    "ingredients": "couscous, ",
+    "category": "v",
+    "fresh_ingredients": "aubergine,",
+    "instructions": "",
+    "season": "winter"
+  },
+  "curry": {
+    "ingredients": "rice, coconut milk, curry,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "gnocchi": {
+    "ingredients": "gnocchi",
+    "category": "v",
+    "fresh_ingredients": "veggies,",
+    "instructions": "",
+    "season": "both"
+  },
+  "miso soup": {
+    "ingredients": "miso, dashi, noodles,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "nachos": {
+    "ingredients": "tomato paste, beans, nachos, sour cream, taco herbs, salad,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "",
+    "season": "both"
+  },
+  "pasta": {
+    "ingredients": "pasta,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "add anything that is leftover",
+    "season": "both"
+  },
+  "pie": {
+    "ingredients": "flour, egg, milk,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "leftovers",
+    "season": "both"
+  },
+  "stir fry noodles": {
+    "ingredients": "noodles,",
+    "category": "v",
+    "fresh_ingredients": "carrot, spring_onion,",
+    "instructions": "",
+    "season": "both"
+  },
+  "Chipotle Black Bean Dump & Bake Casserole": {
+    "ingredients": "rice, black beans, paprika,",
+    "category": "v",
+    "fresh_ingredients": "",
+    "instructions": "https://tinyurl.com/beanchipotle",
+    "season": "both"
+  }
+}

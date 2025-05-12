@@ -1,6 +1,4 @@
-kivy
 pandas
-# Add other dependencies here
 customtkinter
-kivymd
 briefcase
+numpy

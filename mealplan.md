@@ -1,74 +1,74 @@
-Week 16
+Week 20
 Monday: 
-pasta (v)
-Ingredients: pasta, 
-Instructions: add anything that is leftover
-
-Tuesday: 
-miso soup (v)
-Ingredients: miso, dashi, noodles, soybeans, nori, dumplings,
-Instructions: 
-
-Wednesday: 
 chicken in sweet sour sauce (m)
 Ingredients: rice chicken, sweet_sour_sauce,
 Instructions: 
 
+Tuesday: 
+pie (v)
+Ingredients: flour, egg, milk, veggies,
+Instructions: leftovers
+
+Wednesday: 
+couscous salad (v)
+Ingredients: couscous, veggies, feta
+Instructions: 
+
 Thursday: 
-fish with fries (f)
-Ingredients: fish, fries, veggies,
-Instructions: 
-
-Friday: 
-burgers (v)
-Ingredients: burgers, fries, burger buns, salad, onion
-Instructions: 
-
-Saturday: 
-Fish in oven with veggies and potato (f)
-Ingredients:  salmon, paprika, onion, potato
-Instructions: 
-
-Sunday: 
 Chipotle Black Bean Dump & Bake Casserole (v)
 Ingredients: rice, black beans, paprika, 
 Instructions: https://tinyurl.com/beanchipotle
 
+Friday: 
+stir fry noodles (v)
+Ingredients: noodles, carrot, spring_onion,
+Instructions: 
+
+Saturday: 
+paella (f)
+Ingredients: rice, fish, veg, onion, peas, fish stock,
+Instructions: 
+
+Sunday: 
+white fish with onion (f)
+Ingredients: white fish, potatos, onion,
+Instructions: 
+
 
  Monday 
-- pasta 
-
- Tuesday 
-- miso 
-- dashi 
-- noodles 
-- soybeans 
-- nori 
-- dumplings 
-
- Wednesday 
 - ricechicken 
 - sweet_sour_sauce 
 
- Thursday 
-- fish 
-- fries 
+ Tuesday 
+- flour 
+- egg 
+- milk 
 - veggies 
 
- Friday 
-- burgers 
-- fries 
-- burgerbuns 
-- salad 
-- onion 
+ Wednesday 
+- couscous 
+- veggies 
+- feta 
 
- Saturday 
-- salmon 
-- paprika 
-- onion 
-- potato 
-
- Sunday 
+ Thursday 
 - rice 
 - blackbeans 
 - paprika 
+
+ Friday 
+- noodles 
+- carrot 
+- spring_onion 
+
+ Saturday 
+- rice 
+- fish 
+- veg 
+- onion 
+- peas 
+- fishstock 
+
+ Sunday 
+- whitefish 
+- potatos 
+- onion 
